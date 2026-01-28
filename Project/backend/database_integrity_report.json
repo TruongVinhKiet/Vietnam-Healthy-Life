@@ -1,0 +1,279 @@
+{
+  "timestamp": "2025-11-20T02:18:22.345Z",
+  "status": "GOOD",
+  "table_counts": {
+    "User": 1,
+    "admin": 2,
+    "admin_verification": 0,
+    "adminconversation": 0,
+    "adminmessage": 0,
+    "adminrole": 2,
+    "aminoacid": 0,
+    "aminorequirement": 0,
+    "bodymeasurement": 1,
+    "chatbotconversation": 0,
+    "chatbotmessage": 0,
+    "conditioneffectlog": 0,
+    "conditionfoodrecommendation": 0,
+    "conditionnutrienteffect": 0,
+    "dailysummary": 1,
+    "dish": 27,
+    "dishimage": 0,
+    "dishingredient": 91,
+    "dishnotification": 0,
+    "dishnutrient": 0,
+    "dishstatistics": 0,
+    "fattyacid": 7,
+    "fattyacidrequirement": 0,
+    "fiber": 2,
+    "fiberrequirement": 0,
+    "food": 67,
+    "foodcategory": 10,
+    "foodnutrient": 146,
+    "foodtag": 0,
+    "foodtagmapping": 0,
+    "healthcondition": 10,
+    "meal": 3,
+    "meal_entries": 0,
+    "mealitem": 9,
+    "mealnote": 0,
+    "mealtemplate": 0,
+    "mealtemplateitem": 0,
+    "medicationlog": 0,
+    "medicationschedule": 0,
+    "mineral": 14,
+    "mineralnutrient": 14,
+    "mineralrda": 50,
+    "nutrient": 58,
+    "nutrientcontraindication": 0,
+    "nutrientmapping": 0,
+    "nutritionanalysis": 0,
+    "passwordchangecode": 0,
+    "permission": 24,
+    "portionsize": 14,
+    "recipe": 0,
+    "recipeingredient": 0,
+    "role": 5,
+    "rolepermission": 43,
+    "suggestion": 0,
+    "user_account_status": 0,
+    "user_block_event": 0,
+    "user_meal_summaries": 0,
+    "user_meal_targets": 0,
+    "user_unblock_request": 0,
+    "useractivitylog": 2,
+    "useraminointake": 0,
+    "useraminorequirement": 0,
+    "userfattyacidintake": 0,
+    "userfattyacidrequirement": 0,
+    "userfiberintake": 0,
+    "userfiberrequirement": 0,
+    "usergoal": 0,
+    "userhealthcondition": 1,
+    "usermineralrequirement": 14,
+    "usernutrientnotification": 0,
+    "usernutrienttracking": 0,
+    "userprofile": 1,
+    "usersecurity": 1,
+    "usersetting": 0,
+    "uservitaminrequirement": 13,
+    "vitamin": 13,
+    "vitaminnutrient": 13,
+    "vitaminrda": 66,
+    "waterlog": 0
+  },
+  "total_tables": 79,
+  "total_rows": 725,
+  "empty_tables": 47,
+  "issues": [],
+  "warnings": [
+    {
+      "type": "EMPTY_TABLE",
+      "table": "admin_verification"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "adminconversation"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "adminmessage"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "aminoacid"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "aminorequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "chatbotconversation"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "chatbotmessage"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "conditioneffectlog"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "conditionfoodrecommendation"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "conditionnutrienteffect"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "dishimage"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "dishnotification"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "dishnutrient"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "dishstatistics"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "fattyacidrequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "fiberrequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "foodtag"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "foodtagmapping"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "meal_entries"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "mealnote"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "mealtemplate"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "mealtemplateitem"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "medicationlog"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "medicationschedule"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "nutrientcontraindication"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "nutrientmapping"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "nutritionanalysis"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "passwordchangecode"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "recipe"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "recipeingredient"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "suggestion"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "user_account_status"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "user_block_event"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "user_meal_summaries"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "user_meal_targets"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "user_unblock_request"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "useraminointake"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "useraminorequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "userfattyacidintake"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "userfattyacidrequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "userfiberintake"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "userfiberrequirement"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "usergoal"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "usernutrientnotification"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "usernutrienttracking"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "usersetting"
+    },
+    {
+      "type": "EMPTY_TABLE",
+      "table": "waterlog"
+    }
+  ]
+}

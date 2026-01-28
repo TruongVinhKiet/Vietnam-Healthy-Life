@@ -1,0 +1,1927 @@
+drug_id,name,source_link
+1,Lepirudin,Lepirudin
+3,Bivalirudin,Bivalirudin
+4,Peginterferon alfa-2a,Peginterferon alfa-2a
+5,Alteplase,Alteplase
+6,Interferon alfa-n1,Interferon alfa-n1
+7,Darbepoetin alfa,Darbepoetin alfa
+8,Urokinase,Urokinase
+9,Reteplase,Reteplase
+10,Erythropoietin,Erythropoietin
+11,Salmon calcitonin,Salmon calcitonin
+13,Peginterferon alfa-2b,Peginterferon alfa-2b
+14,Anistreplase,Anistreplase
+15,Insulin human,Insulin human
+16,Tenecteplase,Tenecteplase
+17,Interferon gamma-1b,Interferon gamma-1b
+18,Interferon alfa-2a,Interferon alfa-2a
+19,Abciximab,Abciximab
+20,Drotrecogin alfa,Drotrecogin alfa
+21,Indium In-111 satumomab pendetide,Indium In-111 satumomab pendetide
+22,Pegaspargase,Pegaspargase
+23,Interferon beta-1a,Interferon beta-1a
+24,Eptifibatide,Eptifibatide
+25,Interferon beta-1b,Interferon beta-1b
+26,Insulin pork,Insulin pork
+27,Ibritumomab tiuxetan,Ibritumomab tiuxetan
+28,Pancrelipase,Pancrelipase
+29,Streptokinase,Streptokinase
+30,Cyclosporine,Cyclosporine
+32,Octreotide,Octreotide
+33,Interferon alfa-2b,Interferon alfa-2b
+35,Ornithine,Ornithine
+36,L-Glutamine,L-Glutamine
+37,Adenosine phosphate,Adenosine phosphate
+38,Glutamic acid,Glutamic acid
+39,NADH,NADH
+40,Alanine,Alanine
+41,Ademetionine,Ademetionine
+42,Serine,Serine
+43,Methionine,Methionine
+44,Cysteine,Cysteine
+45,Zinc,kẽm
+46,Flavin adenine dinucleotide,Flavin adenine dinucleotide
+47,Ascorbic acid,Ascorbic acid
+48,Tyrosine,Tyrosine
+49,Sapropterin,Sapropterin
+50,Levodopa,Levodopa
+51,Iron,sắt
+52,Biotin,Biotin
+53,Proline,Proline
+54,Flavin mononucleotide,Flavin mononucleotide
+55,Cysteamine,Cysteamine
+56,Adenosine,Adenosine
+57,Lysine,Lysine
+58,Phenylalanine,Phenylalanine
+59,Disulfiram,Disulfiram
+60,Ethanol,Ethanol
+61,Levocarnitine,Levocarnitine
+62,Cyanocobalamin,Cyanocobalamin
+63,Xanthine,Xanthine
+64,Azathioprine,Azathioprine
+65,Mercaptopurine,Mercaptopurine
+66,Tioguanine,Tioguanine
+67,Folic acid,Folic acid
+68,Methotrexate,Methotrexate
+69,Clindamycin,Clindamycin
+70,Erythromycin,Erythromycin
+71,Rolitetracycline,Rolitetracycline
+72,Clarithromycin,Clarithromycin
+73,Oxytetracycline,Oxytetracycline
+74,Tetracycline,Tetracycline
+75,Telithromycin,Telithromycin
+76,Amikacin,Amikacin
+77,Spectinomycin,Spectinomycin
+78,Demeclocycline,Demeclocycline
+79,Doxycycline,Doxycycline
+80,Minocycline,Minocycline
+81,Ademetionine,Ademetionine
+82,Ademetionine,Ademetionine
+83,Phenytoin,Phenytoin
+84,Ademetionine,Ademetionine
+85,Ethanolamine,Ethanolamine
+86,Ademetionine,Ademetionine
+87,Glucosamine,Glucosamine
+88,Propylene glycol,Propylene glycol
+89,Lactaldehyde,Lactaldehyde
+90,Phenylalanine,Phenylalanine
+91,Biotin,Biotin
+92,Lysine,Lysine
+93,Biotin,Biotin
+94,Ascorbic acid,Ascorbic acid
+95,Ascorbic acid,Ascorbic acid
+96,Ascorbic acid,Ascorbic acid
+97,Ornithine,Ornithine
+98,L-Glutamine,L-Glutamine
+99,L-Glutamine,L-Glutamine
+100,L-Glutamine,L-Glutamine
+101,Thymidine,Thymidine
+102,L-Glutamine,L-Glutamine
+103,Adenosine phosphate,Adenosine phosphate
+104,Adenosine phosphate,Adenosine phosphate
+105,Adenosine phosphate,Adenosine phosphate
+106,Adenosine phosphate,Adenosine phosphate
+107,Adenosine phosphate,Adenosine phosphate
+108,Thiamine,Thiamine
+109,Thiamine(1+) monophosphate,Thiamine(1+) monophosphate
+110,Serine,Serine
+111,Methionine,Methionine
+112,Lymecycline,Lymecycline
+113,Paromomycin,Paromomycin
+114,Chloramphenicol,Chloramphenicol
+115,Tyrosine,Tyrosine
+116,Tyrosine,Tyrosine
+117,Liothyronine,Liothyronine
+118,Levothyroxine,Levothyroxine
+119,Lutein,Lutein
+120,Ascorbic acid,Ascorbic acid
+121,Ascorbic acid,Ascorbic acid
+122,Glutamic acid,Glutamic acid
+123,Glutamic acid,Glutamic acid
+124,Etodolac,Etodolac
+125,Glutamic acid,Glutamic acid
+126,Ketoprofen,Ketoprofen
+127,Ibuprofen,Ibuprofen
+128,Glutamic acid,Glutamic acid
+129,Celecoxib,Celecoxib
+130,Glutamic acid,Glutamic acid
+131,Indomethacin,Indomethacin
+132,Glutamic acid,Glutamic acid
+133,Diflunisal,Diflunisal
+134,Rofecoxib,Rofecoxib
+135,Diclofenac,Diclofenac
+136,Sulindac,Sulindac
+137,Nabumetone,Nabumetone
+138,Valdecoxib,Valdecoxib
+139,Antipyrine,Antipyrine
+140,Flurbiprofen,Flurbiprofen
+141,Glutamic acid,Glutamic acid
+142,Acetylsalicylic acid,Acetylsalicylic acid
+143,Ketorolac,Ketorolac
+144,Meloxicam,Meloxicam
+145,Mefenamic acid,Mefenamic acid
+146,Oxaprozin,Oxaprozin
+147,Naproxen,Naproxen
+148,Cyclophosphamide,Cyclophosphamide
+149,Acetaminophen,Acetaminophen
+150,Cholic Acid,Cholic Acid
+151,Glutamic acid,Glutamic acid
+152,Glutamic acid,Glutamic acid
+153,Calcifediol,Calcifediol
+154,Tryptophan,Tryptophan
+155,Cysteine,Cysteine
+156,Cysteine,Cysteine
+157,Polythiazide,Polythiazide
+158,Cysteine,Cysteine
+159,Bumetanide,Bumetanide
+160,Quinethazone,Quinethazone
+161,Indapamide,Indapamide
+162,Spironolactone,Spsắtolactone
+163,Eplerenone,Eplerenone
+164,Adenosine phosphate,Adenosine phosphate
+165,Cysteine,Cysteine
+166,Bendroflumethiazide,Bendroflumethiazide
+167,Etacrynic acid,Etacrynic acid
+168,Hydroflumethiazide,Hydroflumethiazide
+169,Chlorthalidone,Chlorthalidone
+170,Amiloride,Amiloride
+171,Cysteine,Cysteine
+172,Thiamine,Thiamine
+173,Azithromycin,Azithromycin
+174,NADH,NADH
+175,NADH,NADH
+176,Theophylline,Theophylline
+177,Tryptophan,Tryptophan
+178,Melatonin,Melatonin
+179,NADH,NADH
+180,NADH,NADH
+181,Estrone,Estrone
+182,Estrone sulfate,Estrone sulchất béoe
+183,NADH,NADH
+184,Adenosine phosphate,Adenosine phosphate
+185,Adenosine phosphate,Adenosine phosphate
+186,NADH,NADH
+187,Adenosine phosphate,Adenosine phosphate
+188,Folic acid,Folic acid
+189,Icosapent,Icosapent
+190,Alanine,Alanine
+191,Glutamic acid,Glutamic acid
+192,Glutamic acid,Glutamic acid
+193,NADH,NADH
+194,Alitretinoin,Alitretinoin
+195,Tretinoin,Tretinoin
+196,Vitamin E,vitamin E
+197,Cholecalciferol,Cholecalciferol
+198,Cholecalciferol,Cholecalciferol
+199,Cerivastatin,Cerivastatin
+200,Cholecalciferol,Cholecalciferol
+201,Simvastatin,Simvastatin
+202,Pravastatin,Pravastatin
+203,Rosuvastatin,Rosuvastatin
+204,Fluvastatin,Fluvastatin
+205,Ibandronate,Ibandronate
+206,Alendronic acid,Alendronic acid
+207,Risedronic acid,Risedronic acid
+208,Inositol,Inositol
+209,NADH,NADH
+210,NADH,NADH
+211,L-Glutamine,L-Glutamine
+212,Cholecalciferol,Cholecalciferol
+213,Proline,Proline
+214,Pravastatin,Pravastatin
+215,Fluvoxamine,Fluvoxamine
+216,Valsartan,Valsartan
+217,Ramipril,Ramipril
+218,Ramipril,Ramipril
+219,Baclofen,Baclofen
+220,Amphetamine,Amphetamine
+221,Nicotine,Nicotine
+222,NADH,NADH
+223,Nicotine,Nicotine
+224,Lorazepam,Lorazepam
+225,Bortezomib,Bortezomib
+226,Ethchlorvynol,Ethchlorvynol
+227,Phentermine,Phentermine
+228,Tramadol,Tramadol
+229,NADH,NADH
+230,Tramadol,Tramadol
+231,Betaxolol,Betaxolol
+232,Fluconazole,Fluconazole
+233,Oseltamivir,Oseltamivir
+234,Erythromycin,Erythromycin
+235,Sildenafil,Sildenafil
+236,Dofetilide,Dofetilide
+237,Pyrimethamine,Pyrimethamine
+238,Reserpine,Reserpine
+239,Azithromycin,Azithromycin
+240,Ticlopidine,Ticlopidine
+241,Ticlopidine,Ticlopidine
+242,Trospium,Trospium
+243,Midodrine,Midodrine
+244,Pantoprazole,Pantoprazole
+245,Pantoprazole,Pantoprazole
+246,Torasemide,Torasemide
+247,Citalopram,Citalopram
+248,NADH,NADH
+249,Citalopram,Citalopram
+250,Eletriptan,Eletriptan
+251,Moxifloxacin,Moxifloxacin
+252,Nelfinavir,Nelfinavir
+253,Glimepiride,Glimepiride
+254,Indinavir,Indinavir
+255,Lovastatin,Lovastatin
+256,Pregabalin,Pregabalin
+257,Temazepam,Temazepam
+258,Aminosalicylic acid,Aminosalicylic acid
+259,Butabarbital,Butabarbital
+260,Nevirapine,Nevirapine
+261,Adenosine phosphate,Adenosine phosphate
+262,Nevirapine,Nevirapine
+263,Butalbital,Butalbital
+264,Cladribine,Cladribine
+265,Ranolazine,Ranolazine
+266,Mesalazine,Mesalazine
+267,Benzatropine,Benzatropine
+268,Ziprasidone,Ziprasidone
+269,Methysergide,Methysergide
+270,Cabergoline,Cabergoline
+271,Dapsone,Dapsone
+272,Phenytoin,Phenytoin
+273,Fosphenytoin,Fosphenytoin
+274,Phenytoin,Phenytoin
+275,Doxycycline,Doxycycline
+276,Lymecycline,Lymecycline
+277,Calcium acetate,canxi acetate
+278,Cycloserine,Cycloserine
+279,Anagrelide,Anagrelide
+280,Carmustine,Carmustine
+281,Metoprolol,Metoprolol
+282,Dicoumarol,Dicoumarol
+283,Dicoumarol,Dicoumarol
+284,Phylloquinone,Phylloquinone
+285,Ropinirole,Ropinirole
+286,Isradipine,Isradipine
+287,Topiramate,Topiramate
+288,Olmesartan,Olmesartan
+289,Theophylline,Theophylline
+290,Argatroban,Argatroban
+291,Liothyronine,Liothyronine
+292,Disopyramide,Disopyramide
+293,NADH,NADH
+294,NADH,NADH
+295,Clemastine,Clemastine
+296,Acarbose,Acarbose
+297,Venlafaxine,Venlafaxine
+298,Conjugated estrogens,Conjugated estrogens
+299,Atomoxetine,Atomoxetine
+300,Chlorambucil,Chlorambucil
+301,Etonogestrel,Etonogestrel
+302,Morphine,Morphine
+303,NADH,NADH
+304,Morphine,Morphine
+305,Codeine,Codeine
+306,Morphine,Morphine
+307,Diamorphine,Diamorphine
+308,NADH,NADH
+309,Morphine,Morphine
+310,Tenofovir disoproxil,Tenofovir disoproxil
+311,Flucloxacillin,Flucloxacillin
+312,Tranexamic acid,Tranexamic acid
+313,Bexarotene,Bexarotene
+314,Vindesine,Vindesine
+315,Chlorthalidone,Chlorthalidone
+316,Valproic acid,Valproic acid
+317,Zolmitriptan,Zolmitriptan
+318,Acetaminophen,Acetaminophen
+319,Glutamic acid,Glutamic acid
+320,Gefitinib,Gefitinib
+321,Codeine,Codeine
+322,NADH,NADH
+323,Dihydroergotamine,Dihydroergotamine
+324,Amitriptyline,Amitriptyline
+325,Tolcapone,Tolcapone
+326,Hydromorphone,Hydromorphone
+327,Indomethacin,Indomethacin
+328,Ethambutol,Ethambutol
+329,Metformin,Metformin
+330,Methadone,Methadone
+331,NADH,NADH
+332,Methadone,Methadone
+333,Olanzapine,Olanzapine
+334,Omeprazole,Omeprazole
+335,Omeprazole,Omeprazole
+336,Pyrazinamide,Pyrazinamide
+337,Cetirizine,Cetirizine
+338,Terfenadine,Terfenadine
+339,Diltiazem,Diltiazem
+340,Alfuzosin,Alfuzosin
+341,Trimethadione,Trimethadione
+342,Nitisinone,Nitisinone
+343,Clobazam,Clobazam
+344,Minoxidil,Minoxidil
+345,Megestrol acetate,Megestrol acetate
+346,Tioguanine,Tioguanine
+347,Tioguanine,Tioguanine
+348,Methylergometrine,Methylergometrine
+349,Chlorzoxazone,Chlorzoxazone
+350,Aminoglutethimide,Aminoglutethimide
+351,Mefloquine,Mefloquine
+352,Sapropterin,Sapropterin
+353,NADH,NADH
+354,Doxorubicin,Doxorubicin
+355,NADH,NADH
+356,NADH,NADH
+357,Vinorelbine,Vinorelbine
+358,Clozapine,Clozapine
+359,Sucralfate,Sucralchất béoe
+360,Grepafloxacin,Grepafloxacin
+361,Doxylamine,Doxylamine
+362,Levonorgestrel,Levonorgestrel
+363,NADH,NADH
+364,Hydromorphone,Hydromorphone
+365,Fentanyl,Fentanyl
+366,Sufentanil,Sufentanil
+367,Dihydromorphine,Dihydromorphine
+368,Hydrocodone,Hydrocodone
+369,Oxymorphone,Oxymorphone
+370,Remifentanil,Remifentanil
+371,Fluoxetine,Fluoxetine
+372,NADH,NADH
+373,Dextropropoxyphene,Dextropropoxyphene
+374,Anileridine,Anileridine
+375,Mirtazapine,Mirtazapine
+376,Meprobamate,Meprobamate
+377,Meprobamate,Meprobamate
+378,Capecitabine,Capecitabine
+379,Thiethylperazine,Thiethylperazine
+380,Treprostinil,Treprostinil
+381,Colestipol,Colestipol
+382,Trihexyphenidyl,Trihexyphenidyl
+383,Palonosetron,Palonosetron
+384,Mexiletine,Mexiletine
+385,Amlodipine,Amlodipine
+386,Tacrine,Tacrine
+387,Triamterene,Triamterene
+388,Procyclidine,Procyclidine
+389,Digoxin,Digoxin
+390,Sulpiride,Sulpiride
+391,Nimodipine,Nimodipine
+392,Carisoprodol,Carisoprodol
+393,Progesterone,Progesterone
+394,NADH,NADH
+395,Progesterone,Progesterone
+396,Hydrocortisone,Hydrocortisone
+397,Phenylpropanolamine,Phenylpropanolamine
+398,Sorafenib,Sorafenib
+399,Griseofulvin,Griseofulvin
+400,Nisoldipine,Nisoldipine
+401,Eszopiclone,Eszopiclone
+402,Alprazolam,Alprazolam
+403,Dexbrompheniramine,Dexbrompheniramine
+404,Ardeparin,Ardeparin
+405,Ardeparin,Ardeparin
+406,Loxapine,Loxapine
+407,Rosiglitazone,Rosiglitazone
+408,Pramipexole,Pramipexole
+409,Acetohexamide,Acetohexamide
+410,Ampicillin,Ampicillin
+411,Phenoxymethylpenicillin,Phenoxymethylpenicillin
+412,Secobarbital,Secobarbital
+413,Miglustat,Miglustat
+414,Promazine,Promazine
+415,Spironolactone,Spsắtolactone
+416,Methylphenidate,Methylphenidate
+417,Methocarbamol,Methocarbamol
+418,Hyoscyamine,Hyoscyamine
+419,Zolpidem,Zolpidem
+420,Famciclovir,Famciclovir
+421,Triprolidine,Triprolidine
+422,Lindane,Lindane
+423,Trifluridine,Trifluridine
+424,Prochlorperazine,Prochlorperazine
+425,Cyproheptadine,Cyproheptadine
+426,Bendroflumethiazide,Bendroflumethiazide
+427,Allopurinol,Allopurinol
+428,Cerivastatin,Cerivastatin
+429,Entecavir,Entecavir
+430,Teniposide,Teniposide
+431,NADH,NADH
+432,Teniposide,Teniposide
+433,Epirubicin,Epirubicin
+434,Chloramphenicol,Chloramphenicol
+435,Loracarbef,Loracarbef
+436,Lansoprazole,Lansoprazole
+437,Lansoprazole,Lansoprazole
+438,Levothyroxine,Levothyroxine
+439,Meperidine,Meperidine
+440,Prazosin,Prazosin
+441,Imipramine,Imipramine
+442,NADH,NADH
+443,Imipramine,Imipramine
+444,Desipramine,Desipramine
+445,Acitretin,Acitretin
+446,Nabumetone,Nabumetone
+447,Methscopolamine bromide,Methscopolamine bromide
+448,Ketorolac,Ketorolac
+449,Quinine,Quinine
+450,Tenoxicam,Tenoxicam
+451,Dronabinol,Dronabinol
+452,Montelukast,Montelukast
+453,Fluoxetine,Fluoxetine
+454,NADH,NADH
+455,Methohexital,Methohexital
+456,Chlordiazepoxide,Chlordiazepoxide
+457,Duloxetine,Duloxetine
+458,Chlorpromazine,Chlorpromazine
+460,Lenalidomide,Lenalidomide
+461,Raloxifene,Raloxifene
+462,Celecoxib,Celecoxib
+463,Celecoxib,Celecoxib
+464,Brimonidine,Brimonidine
+465,Dicloxacillin,Dicloxacillin
+466,Nabilone,Nabilone
+467,Altretamine,Altretamine
+468,Sotalol,Sotalol
+469,Buspirone,Buspsắte
+470,Miglitol,Miglitol
+471,Fosinopril,Fosinopril
+472,Fosinopril,Fosinopril
+473,Entacapone,Entacapone
+474,Zidovudine,Zidovudine
+475,Darifenacin,Darifenacin
+476,Oxycodone,Oxycodone
+477,Phenindione,Phenindione
+478,Flutamide,Flutamide
+479,Tolmetin,Tolmetin
+480,Cimetidine,Cimetidine
+481,Cimetidine,Cimetidine
+482,Haloperidol,Haloperidol
+483,Ritonavir,Ritonavir
+485,Dextrothyroxine,Dextrothyroxine
+486,Vancomycin,Vancomycin
+487,Aminocaproic acid,Aminocaproic acid
+488,Dextromethorphan,Dextromethorphan
+489,Cisplatin,Cisplatin
+490,Albendazole,Albendazole
+491,Trandolapril,Trandolapril
+492,Trandolapril,Trandolapril
+493,Alitretinoin,Alitretinoin
+494,Metolazone,Metolazone
+495,Lercanidipine,Lercanidipine
+496,Erlotinib,Erlotinib
+497,Cyclophosphamide,Cyclophosphamide
+498,Rofecoxib,Rofecoxib
+499,Cefdinir,Cefdinir
+501,Gadoversetamide,Gadoversetamide
+502,Toremifene,Toremifene
+503,Nortriptyline,Nortriptyline
+504,Vincristine,Vincristine
+505,Benazepril,Benazepril
+506,Benazepril,Benazepril
+507,Amoxapine,Amoxapine
+509,Pyridostigmine,Pyridostigmine
+510,Azelaic acid,Azelaic acid
+511,Zafirlukast,Zafirlukast
+512,Propylthiouracil,Propylthiouracil
+513,Acetohydroxamic acid,Acetohydroxamic acid
+514,Methoxsalen,Methoxsalen
+515,Piroxicam,Piroxicam
+516,Lamotrigine,Lamotrigine
+517,Hydroxyzine,Hydroxyzine
+518,Bosentan,Bosentan
+519,Methotrexate,Methotrexate
+520,Carbamazepine,Carbamazepine
+521,Succimer,Succimer
+523,Fondaparinux,Fondaparinux
+524,Vinblastine,Vinblastine
+525,Propranolol,Propranolol
+526,Atropine,Atropine
+527,Fenoprofen,Fenoprofen
+528,Fenfluramine,Fenfluramine
+529,Clonidine,Clonidine
+530,Sulfamethizole,Sulfamethizole
+531,Valaciclovir,Valaciclovir
+532,Carbenicillin,Carbenicillin
+533,Mazindol,Mazindol
+534,Valdecoxib,Valdecoxib
+535,Lactulose,Lactulose
+536,Voriconazole,Voriconazole
+537,Levocarnitine,Levocarnitine
+538,Adenosine phosphate,Adenosine phosphate
+539,Adenosine phosphate,Adenosine phosphate
+540,Adenosine phosphate,Adenosine phosphate
+541,Ascorbic acid,Ascorbic acid
+542,Adenosine phosphate,Adenosine phosphate
+543,Enalapril,Enalapril
+544,Enalapril,Enalapril
+545,Nizatidine,Nizatidine
+546,Diclofenac,Diclofenac
+547,Doxazosin,Doxazosin
+548,Piperazine,Piperazine
+549,Ethosuximide,Ethosuximide
+550,Amiloride,Amiloride
+551,Oxytetracycline,Oxytetracycline
+552,Labetalol,Labetalol
+553,Thiopental,Thiopental
+554,Linezolid,Linezolid
+555,Ivermectin,Ivermectin
+556,Medroxyprogesterone acetate,Medroxyprogesterone acetate
+557,Cisapride,Cisapride
+558,Sulindac,Sulindac
+559,Nafcillin,Nafcillin
+560,Chloroquine,Chloroquine
+561,Ethionamide,Ethionamide
+562,Butorphanol,Butorphanol
+563,Bisoprolol,Bisoprolol
+564,Rifabutin,Rifabutin
+565,Demeclocycline,Demeclocycline
+566,Imatinib,Imatinib
+567,Nicardipine,Nicardipine
+568,Fluphenazine,Fluphenazine
+569,NADH,NADH
+570,Efavirenz,Efavirenz
+571,Niacin,Niacin
+572,Clorazepic acid,Clorazepic acid
+573,Alendronic acid,Alendronic acid
+574,Clofarabine,Clofarabine
+575,Prednisone,Prednisone
+576,Prednisone,Prednisone
+577,Prednisolone,Prednisolone
+578,Clofibrate,Clofibrate
+579,Astemizole,Astemizole
+580,Adenosine,Adenosine
+581,Simvastatin,Simvastatin
+582,Pemetrexed,Pemetrexed
+583,Mebendazole,Mebendazole
+584,Dyclonine,Dyclonine
+585,Dextropropoxyphene,Dextropropoxyphene
+586,Mitotane,Mitotane
+587,Stavudine,Stavudine
+588,Pentazocine,Pentazocine
+589,Estrone,Estrone
+590,Ademetionine,Ademetionine
+591,NADH,NADH
+592,NADH,NADH
+593,Trazodone,Trazodone
+594,Mecamylamine,Mecamylamine
+595,Sevelamer,Sevelamer
+596,Acamprosate,Acamprosate
+597,Metaxalone,Metaxalone
+598,Verapamil,Verapamil
+599,Trimethobenzamide,Trimethobenzamide
+600,Nilutamide,Nilutamide
+601,Nafarelin,Nafarelin
+602,Sumatriptan,Sumatriptan
+603,Pirenzepine,Pirenzepine
+604,Cefixime,Cefixime
+605,Chlorpropamide,Chlorpropamide
+606,Aprepitant,Aprepitant
+607,Galantamine,Galantamine
+608,Tamoxifen,Tamoxifen
+609,Tamoxifen,Tamoxifen
+610,Losartan,Losartan
+611,Thioridazine,Thioridazine
+612,Warfarin,Warfarin
+613,Midazolam,Midazolam
+614,Trovafloxacin,Trovafloxacin
+615,Pentosan polysulfate,Pentosan polysulchất béoe
+616,Fludrocortisone,Fludrocortisone
+617,Mycophenolate mofetil,Mycophenolate mofetil
+618,Flurazepam,Flurazepam
+619,Moexipril,Moexipril
+620,Moexipril,Moexipril
+621,Furosemide,Furosemide
+622,Ergotamine,Ergotamine
+623,Tizanidine,Tizanidine
+624,Nitrofurantoin,Nitrofurantoin
+625,Eplerenone,Eplerenone
+626,Amprenavir,Amprenavir
+627,Methazolamide,Methazolamide
+628,Naltrexone,Naltrexone
+629,Delavirdine,Delavirdine
+630,Tamsulosin,Tamsulosin
+631,Sufentanil,Sufentanil
+632,Lamivudine,Lamivudine
+633,Adenosine phosphate,Adenosine phosphate
+634,Lamivudine,Lamivudine
+635,Ibandronate,Ibandronate
+636,Diethylcarbamazine,Diethylcarbamazine
+637,Flurbiprofen,Flurbiprofen
+638,Apomorphine,Apomorphine
+639,Paroxetine,Paroxetine
+640,Norethisterone,Norethisterone
+641,Adefovir dipivoxil,Adefovir dipivoxil
+642,Azatadine,Azatadine
+643,Clodronic acid,Clodronic acid
+644,Lisinopril,Lisinopril
+645,Imiquimod,Imiquimod
+646,Trimipramine,Trimipramine
+647,Nitroglycerin,Nitroglycerin
+648,Nateglinide,Nateglinide
+649,Risperidone,Risperidone
+650,Esomeprazole,Esomeprazole
+651,Esomeprazole,Esomeprazole
+652,Meclizine,Meclizine
+654,Riluzole,Riluzole
+655,Hydrocortisone,Hydrocortisone
+656,NADH,NADH
+658,Modafinil,Modafinil
+659,Scopolamine,Scopolamine
+660,Carbinoxamine,Carbinoxamine
+661,Etodolac,Etodolac
+662,Prilocaine,Prilocaine
+663,Tranylcypromine,Tranylcypromine
+664,Ethotoin,Ethotoin
+665,Tretinoin,Tretinoin
+666,Dolasetron,Dolasetron
+667,Clopidogrel,Clopidogrel
+668,Clopidogrel,Clopidogrel
+669,Tetracycline,Tetracycline
+670,Potassium chloride,kali chloride
+671,Metyrosine,Metyrosine
+672,Clavulanic acid,Clavulanic acid
+673,Clidinium,Clidinium
+674,Etoposide,Etoposide
+675,NADH,NADH
+676,Etoposide,Etoposide
+677,Hydroflumethiazide,Hydroflumethiazide
+678,Oxcarbazepine,Oxcarbazepine
+679,Nalidixic acid,Nalidixic acid
+680,Phenelzine,Phenelzine
+681,Propantheline,Propantheline
+682,Mefenamic acid,Mefenamic acid
+683,Acyclovir,Acyclovir
+684,Naproxen,Naproxen
+685,Perindopril,Perindopril
+686,Primidone,Primidone
+687,Sulfasalazine,Sulfasalazine
+688,Candesartan cilexetil,Candesartan cilexetil
+689,Fenoldopam,Fenoldopam
+691,Dicyclomine,Dicyclomine
+692,Pentoxifylline,Pentoxifylline
+693,Indapamide,Indapamide
+694,Biperiden,Biperiden
+695,Ribavirin,Ribavirin
+696,Phenylbutazone,Phenylbutazone
+697,Fentanyl,Fentanyl
+698,Meloxicam,Meloxicam
+699,Sodium lauryl sulfate,natri lauryl sulchất béoe
+700,Orciprenaline,Orciprenaline
+701,Acetazolamide,Acetazolamide
+702,Tadalafil,Tadalafil
+703,Disulfiram,Disulfiram
+704,Fosfomycin,Fosfomycin
+705,Diazepam,Diazepam
+706,Trifluoperazine,Trifluoperazine
+707,Cefaclor,Cefaclor
+708,Mifepristone,Mifepristone
+709,Brompheniramine,Brompheniramine
+710,Tolazamide,Tolazamide
+711,Oxazepam,Oxazepam
+712,Donepezil,Donepezil
+713,Nalbuphine,Nalbuphine
+714,Clofazimine,Clofazimine
+715,Cysteamine,Cysteamine
+716,Adenosine phosphate,Adenosine phosphate
+717,Levamisole,Levamisole
+718,Perphenazine,Perphenazine
+719,Dacarbazine,Dacarbazine
+720,Pseudoephedrine,Pseudoephedrine
+721,Temozolomide,Temozolomide
+722,Levorphanol,Levorphanol
+723,Terbinafine,Terbinafine
+724,Penicillamine,Penicillamine
+725,Prednisolone,Prednisolone
+726,Prednisolone,Prednisolone
+728,Diflunisal,Diflunisal
+729,Vardenafil,Vardenafil
+730,Ranitidine,Ranitidine
+731,Tacrolimus,Tacrolimus
+732,Benzphetamine,Benzphetamine
+733,Benzonatate,Benzonatate
+734,Loteprednol etabonate,Loteprednol etabonate
+735,Guaifenesin,Guaifenesin
+736,Flupentixol,Flupentixol
+737,Eprosartan,Eprosartan
+738,Sirolimus,Sirolimus
+739,Chlorhexidine,Chlorhexidine
+740,Emtricitabine,Emtricitabine
+741,Quinapril,Quinapril
+742,Quinapril,Quinapril
+743,Clomifene,Clomifene
+744,Isosorbide dinitrate,Isosorbide dinitrate
+745,Risedronic acid,Risedronic acid
+746,Bumetanide,Bumetanide
+747,Granisetron,Granisetron
+749,Triazolam,Triazolam
+750,Ethanol,Ethanol
+751,Adenosine phosphate,Adenosine phosphate
+752,Remifentanil,Remifentanil
+753,Didanosine,Didanosine
+754,Etacrynic acid,Etacrynic acid
+755,Ondansetron,Ondansetron
+756,Tiagabine,Tiagabine
+757,Quinidine,Quinidine
+758,Zonisamide,Zonisamide
+759,Paricalcitol,Paricalcitol
+760,Tinidazole,Tinidazole
+761,Repaglinide,Repaglinide
+762,Anileridine,Anileridine
+763,Amantadine,Amantadine
+764,Metronidazole,Metronidazole
+765,Etoricoxib,Etoricoxib
+766,Lumiracoxib,Lumiracoxib
+767,Phenylbutazone,Phenylbutazone
+768,Salsalate,Salsalate
+769,Almotriptan,Almotriptan
+771,Ketotifen,Ketotifen
+772,Buprenorphine,Buprenorphine
+773,Cyclobenzaprine,Cyclobenzaprine
+774,Etretinate,Etretinate
+775,Famotidine,Famotidine
+776,Misoprostol,Misoprostol
+778,Tipranavir,Tipranavir
+780,Maprotiline,Maprotiline
+781,Diethylpropion,Diethylpropion
+782,Meclofenamic acid,Meclofenamic acid
+783,Zalcitabine,Zalcitabine
+784,Acetylsalicylic acid,Acetylsalicylic acid
+785,Phenprocoumon,Phenprocoumon
+786,Felbamate,Felbamate
+787,Fexofenadine,Fexofenadine
+788,Isoniazid,Isoniazid
+789,Naratriptan,Naratriptan
+790,Rizatriptan,Rizatriptan
+791,Hydrocodone,Hydrocodone
+792,Norgestimate,Norgestimate
+793,Carboplatin,Carboplatin
+794,Methylprednisolone,Methylprednisolone
+795,Pindolol,Pindolol
+796,Zaleplon,Zaleplon
+797,Telmisartan,Telmisartan
+798,Desloratadine,Desloratadine
+799,Methyldopa,Methyldopa
+800,Alosetron,Alosetron
+801,Azelastine,Azelastine
+802,Ezetimibe,Ezetimibe
+803,Edetic acid,Edetic acid
+804,Dipyridamole,Dipyridamole
+805,Telithromycin,Telithromycin
+806,Ethinylestradiol,Ethinylestradiol
+807,Lomefloxacin,Lomefloxacin
+808,Ramelteon,Ramelteon
+809,Isotretinoin,Isotretinoin
+810,Dimenhydrinate,Dimenhydrinate
+811,Glycopyrronium,Glycopyrronium
+812,Rivastigmine,Rivastigmine
+813,Exemestane,Exemestane
+814,Oxaprozin,Oxaprozin
+815,Azathioprine,Azathioprine
+816,Azathioprine,Azathioprine
+817,Auranofin,Auranofin
+818,Gabapentin,Gabapentin
+819,Doxorubicin,Doxorubicin
+820,Frovatriptan,Frovatriptan
+821,Hydrochlorothiazide,Hydrochlorothiazide
+822,Cromoglicic acid,Cromoglicic acid
+823,Ganciclovir,Ganciclovir
+824,Hydroxyurea,Hydroxyurea
+825,Letrozole,Letrozole
+826,Busulfan,Busulfan
+827,Ketoprofen,Ketoprofen
+828,Metyrapone,Metyrapone
+829,Cinacalcet,Cinacalcet
+830,Balsalazide,Balsalazide
+832,Glyburide,Glyburide
+833,Minocycline,Minocycline
+834,Guanfacine,Guanfacine
+835,Bethanechol,Bethanechol
+836,Isosorbide mononitrate,Isosorbide mononitrate
+837,Phylloquinone,Phylloquinone
+838,Fondaparinux,Fondaparinux
+839,Lepirudin,Lepirudin
+840,Alteplase,Alteplase
+841,Anistreplase,Anistreplase
+842,Urokinase,Urokinase
+843,Phenindione,Phenindione
+844,Warfarin,Warfarin
+845,Phylloquinone,Phylloquinone
+846,Acenocoumarol,Acenocoumarol
+847,Argatroban,Argatroban
+848,Ximelagatran,Ximelagatran
+849,Tenecteplase,Tenecteplase
+850,Aminocaproic acid,Aminocaproic acid
+851,Phenprocoumon,Phenprocoumon
+852,Heparin,Heparin
+853,Bivalirudin,Bivalirudin
+854,Streptokinase,Streptokinase
+855,Reteplase,Reteplase
+856,Tranexamic acid,Tranexamic acid
+857,Phylloquinone,Phylloquinone
+858,Felodipine,Felodipine
+859,Felodipine,Felodipine
+860,Mycophenolic acid,Mycophenolic acid
+861,Ketoconazole,Ketoconazole
+862,Methoxyflurane,Methoxyflurane
+863,Irbesartan,Irbesartan
+864,Topotecan,Topotecan
+865,Probenecid,Probenecid
+866,Mercaptopurine,Mercaptopurine
+867,Ademetionine,Ademetionine
+868,Procainamide,Procainamide
+869,Tolterodine,Tolterodine
+870,Selegiline,Selegiline
+871,Fenofibrate,Fenofibrate
+872,Thalidomide,Thalidomide
+873,Melphalan,Melphalan
+874,Memantine,Memantine
+875,Gatifloxacin,Gatifloxacin
+876,Rifampicin,Rifampicin
+877,Lubiprostone,Lubiprostone
+878,Abacavir,Abacavir
+879,Ergoloid mesylate,Ergoloid mesylate
+880,Ibuprofen,Ibuprofen
+881,Ibuprofen,Ibuprofen
+882,Nitrendipine,Nitrendipine
+883,Praziquantel,Praziquantel
+884,Norfloxacin,Norfloxacin
+885,Amoxicillin,Amoxicillin
+886,Oxybutynin,Oxybutynin
+887,Melatonin,Melatonin
+888,Cefditoren,Cefditoren
+889,Glipizide,Glipizide
+890,Clonazepam,Clonazepam
+891,Promethazine,Promethazine
+892,Atazanavir,Atazanavir
+893,Fludarabine,Fludarabine
+894,Diphenhydramine,Diphenhydramine
+895,Atorvastatin,Atorvastatin
+896,Etidronic acid,Etidronic acid
+897,Tegaserod,Tegaserod
+898,Vigabatrin,Vigabatrin
+899,Diphenoxylate,Diphenoxylate
+900,Orlistat,Orlistat
+901,Pilocarpine,Pilocarpine
+902,Primaquine,Primaquine
+903,Iloprost,Iloprost
+904,Fluvastatin,Fluvastatin
+905,Leflunomide,Leflunomide
+906,Rosuvastatin,Rosuvastatin
+907,Pimozide,Pimozide
+908,Capecitabine,Capecitabine
+909,Sertraline,Sertraline
+910,Methyprylon,Methyprylon
+911,Heparin,Heparin
+912,Heparin,Heparin
+913,Cefuroxime,Cefuroxime
+914,Chlorpheniramine,Chlorpheniramine
+915,Nifedipine,Nifedipine
+916,Atovaquone,Atovaquone
+917,Amiodarone,Amiodarone
+918,Gliclazide,Gliclazide
+919,Phenacemide,Phenacemide
+920,Tolbutamide,Tolbutamide
+921,Dutasteride,Dutasteride
+922,Bicalutamide,Bicalutamide
+923,Rabeprazole,Rabeprazole
+924,Rabeprazole,Rabeprazole
+925,Proguanil,Proguanil
+926,Pioglitazone,Pioglitazone
+927,Tiludronic acid,Tiludronic acid
+928,Carvedilol,Carvedilol
+929,Levofloxacin,Levofloxacin
+930,Sulfinpyrazone,Sulfinpyrazone
+931,Cefadroxil,Cefadroxil
+933,Doxepin,Doxepin
+934,NADH,NADH
+935,Doxepin,Doxepin
+936,Diclofenamide,Diclofenamide
+937,Cloxacillin,Cloxacillin
+938,Flavoxate,Flavoxate
+939,Nefazodone,Nefazodone
+940,Cefprozil,Cefprozil
+941,Desipramine,Desipramine
+942,NADH,NADH
+943,Desipramine,Desipramine
+944,Gemifloxacin,Gemifloxacin
+945,Bupropion,Bupropion
+946,Terazosin,Terazosin
+947,Ofloxacin,Ofloxacin
+948,Cilostazol,Cilostazol
+949,Itraconazole,Itraconazole
+950,Procarbazine,Procarbazine
+951,Guanethidine,Guanethidine
+952,Moclobemide,Moclobemide
+953,Orphenadrine,Orphenadrine
+954,Phenobarbital,Phenobarbital
+955,Escitalopram,Escitalopram
+956,Cyclizine,Cyclizine
+957,Ifosfamide,Ifosfamide
+958,NADH,NADH
+959,Ifosfamide,Ifosfamide
+960,Propafenone,Propafenone
+961,Naloxone,Naloxone
+962,Domperidone,Domperidone
+963,Fluoxymesterone,Fluoxymesterone
+964,Pergolide,Pergolide
+965,Clindamycin,Clindamycin
+966,Dexfenfluramine,Dexfenfluramine
+967,Oxymorphone,Oxymorphone
+968,Acebutolol,Acebutolol
+969,Flecainide,Flecainide
+970,Estramustine,Estramustine
+971,Captopril,Captopril
+972,Zopiclone,Zopiclone
+973,Bromocriptine,Bromocriptine
+974,Rifapentine,Rifapentine
+975,Levetiracetam,Levetiracetam
+976,Nadolol,Nadolol
+977,Flumazenil,Flumazenil
+978,Clarithromycin,Clarithromycin
+979,Fomepizole,Fomepizole
+980,Estazolam,Estazolam
+981,Finasteride,Finasteride
+982,Anastrozole,Anastrozole
+983,Halofantrine,Halofantrine
+984,Dantrolene,Dantrolene
+985,Rifaximin,Rifaximin
+986,Ketamine,Ketamine
+987,Budesonide,Budesonide
+988,Aminophylline,Aminophylline
+989,Quetiapine,Quetiapine
+990,Enoxaparin,Enoxaparin
+991,Paclitaxel,Paclitaxel
+992,Pemoline,Pemoline
+993,Saquinavir,Saquinavir
+994,Metoclopramide,Metoclopramide
+995,Dexamethasone,Dexamethasone
+996,Levodopa,Levodopa
+997,Aripiprazole,Aripiprazole
+998,Chlorprothixene,Chlorprothixene
+999,Epoprostenol,Epoprostenol
+1000,Gemfibrozil,Gemfibrozil
+1001,Clomipramine,Clomipramine
+1002,Bepridil,Bepridil
+1003,Alimemazine,Alimemazine
+1004,Isocarboxazid,Isocarboxazid
+1005,Docetaxel,Docetaxel
+1006,Olsalazine,Olsalazine
+1007,Dasatinib,Dasatinib
+1008,Lisdexamfetamine,Lisdexamfetamine
+1009,Lapatinib,Lapatinib
+1010,Sitagliptin,Sitagliptin
+1011,Posaconazole,Posaconazole
+1012,Darunavir,Darunavir
+1013,Telbivudine,Telbivudine
+1014,Paliperidone,Paliperidone
+1015,Sunitinib,Sunitinib
+1016,Varenicline,Varenicline
+1017,Hydralazine,Hydralazine
+1018,Exenatide,Exenatide
+1019,Mecasermin,Mecasermin
+1020,Pramlintide,Pramlintide
+1021,Lumiracoxib,Lumiracoxib
+1022,Fenoterol,Fenoterol
+1023,Glucosamine,Glucosamine
+1024,Practolol,Practolol
+1025,Sulfadoxine,Sulfadoxine
+1026,Rolitetracycline,Rolitetracycline
+1027,Oxtriphylline,Oxtriphylline
+1028,Insulin aspart,Insulin aspart
+1029,Insulin detemir,Insulin detemir
+1030,Insulin glulisine,Insulin glulisine
+1031,Fosamprenavir,Fosamprenavir
+1032,Fosphenytoin,Fosphenytoin
+1033,Polythiazide,Polythiazide
+1034,Quinethazone,Quinethazone
+1035,Cefamandole,Cefamandole
+1036,Cefoperazone,Cefoperazone
+1037,Cefotetan,Cefotetan
+1038,Cefradine,Cefradine
+1039,Cilazapril,Cilazapril
+1040,Cilazapril,Cilazapril
+1041,Tolevamer,Tolevamer
+1042,Cysteine,Cysteine
+1043,Hydrochlorothiazide,Hydrochlorothiazide
+1044,Metolazone,Metolazone
+1045,Furosemide,Furosemide
+1046,Torasemide,Torasemide
+1047,Triamterene,Triamterene
+1048,Cysteine,Cysteine
+1049,Ranitidine,Ranitidine
+1050,Famotidine,Famotidine
+1051,Cysteine,Cysteine
+1052,Pirenzepine,Pirenzepine
+1053,Procainamide,Procainamide
+1054,NADH,NADH
+1055,Nimodipine,Nimodipine
+1056,Nisoldipine,Nisoldipine
+1058,Spirapril,Spirapril
+1059,Spirapril,Spirapril
+1060,Amobarbital,Amobarbital
+1061,Procaterol,Procaterol
+1062,Rasagiline,Rasagiline
+1064,NADH,NADH
+1065,Adenosine phosphate,Adenosine phosphate
+1066,Glutamic acid,Glutamic acid
+1067,Phenprocoumon,Phenprocoumon
+1068,Heparin,Heparin
+1069,Magnesium oxide,magie oxide
+1070,Ascorbic acid,Ascorbic acid
+1071,Adenosine phosphate,Adenosine phosphate
+1072,Cholecalciferol,Cholecalciferol
+1073,Lovastatin,Lovastatin
+1074,Glutamic acid,Glutamic acid
+1075,L-Glutamine,L-Glutamine
+1076,Cholecalciferol,Cholecalciferol
+1077,Cortisone acetate,Cortisone acetate
+1078,Ginkgo biloba,Ginkgo biloba
+1079,Sodium bicarbonate,natri bicarbonate
+1080,Yohimbine,Yohimbine
+1081,Bezafibrate,Bezafibrate
+1082,Colchicine,Colchicine
+1083,Drospirenone,Drospirenone
+1084,Digitoxin,Digitoxin
+1085,Salsalate,Salsalate
+1086,Methotrimeprazine,Methotrimeprazine
+1087,Danazol,Danazol
+1088,Tiotropium,Tiotropium
+1089,Ceftibuten,Ceftibuten
+1090,Cefpodoxime,Cefpodoxime
+1091,Acenocoumarol,Acenocoumarol
+1092,Paromomycin,Paromomycin
+1093,Cholestyramine,Cholestyramine
+1094,Antipyrine,Antipyrine
+1095,Alfacalcidol,Alfacalcidol
+1096,Glutethimide,Glutethimide
+1097,Phenazopyridine,Phenazopyridine
+1098,Diamorphine,Diamorphine
+1099,Morphine,Morphine
+1100,Ethylmorphine,Ethylmorphine
+1102,Dichloralphenazone,Dichloralphenazone
+1103,Difenoxin,Difenoxin
+1104,Desomorphine,Desomorphine
+1105,Flunitrazepam,Flunitrazepam
+1106,Dihydrocodeine,Dihydrocodeine
+1108,Bromazepam,Bromazepam
+1109,Chloral hydrate,Chloral hydrate
+1110,Dihydromorphine,Dihydromorphine
+1111,Fludiazepam,Fludiazepam
+1112,Benzylmorphine,Benzylmorphine
+1113,Attapulgite,Attapulgite
+1114,Dextroamphetamine,Dextroamphetamine
+1115,Phendimetrazine,Phendimetrazine
+1116,Oxprenolol,Oxprenolol
+1117,Liotrix,Liotrix
+1118,Ursodeoxycholic acid,Ursodeoxycholic acid
+1119,Ketazolam,Ketazolam
+1120,Prazepam,Prazepam
+1121,Quazepam,Quazepam
+1122,Everolimus,Everolimus
+1123,Solifenacin,Solifenacin
+1124,Iron,sắt
+1126,Cholecalciferol,Cholecalciferol
+1127,NADH,NADH
+1128,Cholecalciferol,Cholecalciferol
+1129,NADH,NADH
+1130,Cholecalciferol,Cholecalciferol
+1131,Adenosine phosphate,Adenosine phosphate
+1132,Adenosine phosphate,Adenosine phosphate
+1133,L-Glutamine,L-Glutamine
+1134,Cholecalciferol,Cholecalciferol
+1135,Zinc,kẽm
+1136,NADH,NADH
+1137,Glutamic acid,Glutamic acid
+1138,Piroxicam,Piroxicam
+1139,Benazepril,Benazepril
+1141,Eprosartan,Eprosartan
+1142,Irbesartan,Irbesartan
+1143,Losartan,Losartan
+1144,Valsartan,Valsartan
+1145,L-Glutamine,L-Glutamine
+1146,L-Glutamine,L-Glutamine
+1147,NADH,NADH
+1148,Glutamic acid,Glutamic acid
+1149,Cinolazepam,Cinolazepam
+1150,Nitrazepam,Nitrazepam
+1151,Probucol,Probucol
+1152,Tiaprofenic acid,Tiaprofenic acid
+1153,Lopinavir,Lopinavir
+1154,Bacampicillin,Bacampicillin
+1155,Pivampicillin,Pivampicillin
+1156,Pivmecillinam,Pivmecillinam
+1157,Periciazine,Periciazine
+1158,Deferasirox,Deferasirox
+1159,Valganciclovir,Valganciclovir
+1160,Hydroxychloroquine,Hydroxychloroquine
+1161,Amyl Nitrite,Amyl Nitrite
+1162,Erythrityl tetranitrate,Erythrityl tetranitrate
+1163,Acepromazine,Acepromazine
+1164,Molindone,Molindone
+1165,Phenindamine,Phenindamine
+1166,Pipotiazine,Pipotiazine
+1167,Thioproperazine,Thioproperazine
+1168,Thiothixene,Thiothixene
+1169,Zuclopenthixol,Zuclopenthixol
+1170,Pargyline,Pargyline
+1171,Etoricoxib,Etoricoxib
+1172,L-Glutamine,L-Glutamine
+1173,Adenosine phosphate,Adenosine phosphate
+1174,Ademetionine,Ademetionine
+1175,Niacin,Niacin
+1176,L-Glutamine,L-Glutamine
+1177,L-Glutamine,L-Glutamine
+1179,NADH,NADH
+1181,Roflumilast,Roflumilast
+1183,"1,2-dihexadecanoyl-sn-glycero-3-phosphoethanolamine","[Cần dịch] 1,2-dihexadecanoyl-sn-glycero-3-phosphoethanolamine"
+1184,Adenosine phosphate,Adenosine phosphate
+1185,Biotin,Biotin
+1186,Adenosine phosphate,Adenosine phosphate
+1187,"[1-(1-Methyl-4,5-Dioxo-Pent-2-Enylcarbamoyl)-2-Phenyl-Ethyl]-Carbamic Acid Benzyl Ester","[Cần dịch] [1-(1-Methyl-4,5-Dioxo-Pent-2-Enylcarbamoyl)-2-Phenyl-Ethyl]-Carbamic Acid Benzyl Ester"
+1188,Pyridoxyl-Glutamic Acid-5'-Monophosphate,Pyridoxyl-Glutamic Acid-5'-Monophosphate
+1190,NADH,NADH
+1191,Propylene glycol,Propylene glycol
+1192,L-Glutamine,L-Glutamine
+1193,NADH,NADH
+1194,NADH,NADH
+1195,NADH,NADH
+1196,[1-(1-Benzyl-3-Hydroxy-2-Oxo-Propylcarbamoyl)-2-Phenyl-Ethyl]-Carbamic Acid Benzyl Ester,[Cần dịch] [1-(1-Benzyl-3-Hydroxy-2-Oxo-Propylcarbamoyl)-2-Phenyl-Ethyl]-Carbamic Acid Benzyl Ester
+1198,Cholecalciferol,Cholecalciferol
+1199,Cholecalciferol,Cholecalciferol
+1200,NADH,NADH
+1201,Rolipram,Rolipram
+1203,Di-Stearoyl-3-Sn-Phosphatidylethanolamine,Di-Stearoyl-3-Sn-Phosphatidylethanolamine
+1204,Cocarboxylase,Cocarboxylase
+1205,Coenzyme A,Coenzyme A
+1206,Glutamic acid,Glutamic acid
+1207,Fenoprofen,Fenoprofen
+1208,Tolmetin,Tolmetin
+1209,Tiaprofenic acid,Tiaprofenic acid
+1210,Tenoxicam,Tenoxicam
+1212,[1-(3-hydroxy-2-oxo-1-phenethyl-propylcarbamoyl)2-phenyl-ethyl]-carbamic acid pyridin-4-ylmethyl ester,[Cần dịch] [1-(3-hydroxy-2-oxo-1-phenethyl-propylcarbamoyl)2-phenyl-ethyl]-carbamic acid pyridin-4-ylmethyl ester
+1213,Xanthine,Xanthine
+1214,Adenosine phosphate,Adenosine phosphate
+1215,NADH,NADH
+1216,Adenosine phosphate,Adenosine phosphate
+1217,Adenosine phosphate,Adenosine phosphate
+1218,NADH,NADH
+1219,NADH,NADH
+1221,Tetrahydropyran,Tetrahydropyran
+1222,(5r)-5-Amino-6-Hydroxyhexylcarbamic Acid,(5r)-5-Amino-6-Hydroxyhexylcarbamic Acid
+1224,NADH,NADH
+1225,NADH,NADH
+1226,D-Glutamic Acid,D-Glutamic Acid
+1227,"10-formyl-5,8,10-trideazafolic acid","10-formyl-5,8,10-trideazafolic acid"
+1228,Vorinostat,Vorinostat
+1229,Cholecalciferol,Cholecalciferol
+1230,Glutamic acid,Glutamic acid
+1231,Cholecalciferol,Cholecalciferol
+1232,Cholecalciferol,Cholecalciferol
+1233,Cholecalciferol,Cholecalciferol
+1234,Ademetionine,Ademetionine
+1235,Glutamic acid,Glutamic acid
+1236,NADH,NADH
+1237,NADH,NADH
+1238,Balanol Analog 1,Balanol Analog 1
+1239,Cholic Acid,Cholic Acid
+1241,Fusidic acid,Fusidic acid
+1243,Heptanoic acid,Heptanoic acid
+1244,L-Glutamine,L-Glutamine
+1246,L-Alpha-Phosphatidyl-Beta-Oleoyl-Gamma-Palmitoyl-Phosphatidylethanolamine,[Cần dịch] L-Alpha-Phosphatidyl-Beta-Oleoyl-Gamma-Palmitoyl-Phosphatidylethanolamine
+1248,L-Glutamine,L-Glutamine
+1249,Nizatidine,Nizatidine
+1250,Flavin adenine dinucleotide,Flavin adenine dinucleotide
+1251,NADH,NADH
+1252,Adenosine phosphate,Adenosine phosphate
+1253,Cholecalciferol,Cholecalciferol
+1254,Glutamic acid,Glutamic acid
+1255,Adenosine phosphate,Adenosine phosphate
+1258,Oteracil,Oteracil
+1260,"(2s,5s)-5-Carboxymethylproline","(2s,5s)-5-Carboxymethylproline"
+1261,"5-[Bis-2(Chloro-Ethyl)-Amino]-2,4-Dintro-Benzamide","[Cần dịch] 5-[Bis-2(Chloro-Ethyl)-Amino]-2,4-Dintro-Benzamide"
+1262,"(S)-2-[4-(Aminomethyl)-1h-1,2,3-Triazol-1-Yl]-4-Methylpentanoic Acid","[Cần dịch] (S)-2-[4-(Aminomethyl)-1h-1,2,3-Triazol-1-Yl]-4-Methylpentanoic Acid"
+1263,Flavin mononucleotide,Flavin mononucleotide
+1264,L-Glutamine,L-Glutamine
+1265,Adenosine phosphate,Adenosine phosphate
+1266,L-Glutamine,L-Glutamine
+1267,(4-sulfamoyl-phenyl)-thiocarbamic acid O-(2-thiophen-3-yl-ethyl) ester,[Cần dịch] (4-sulfamoyl-phenyl)-thiocarbamic acid O-(2-thiophen-3-yl-ethyl) ester
+1268,Mercaptoethanol,Mercaptoethanol
+1269,Imidazole,Imidazole
+1270,Glutamic acid,Glutamic acid
+1273,NADH,NADH
+1274,NADH,NADH
+1275,Tamoxifen,Tamoxifen
+1276,Adenosine phosphate,Adenosine phosphate
+1277,Valproic acid,Valproic acid
+1278,Sorafenib,Sorafenib
+1279,NADH,NADH
+1280,Glutamic acid,Glutamic acid
+1281,L-Glutamine,L-Glutamine
+1284,sn-glycero-3-phosphoethanolamine,sn-glycero-3-phosphoethanolamine
+1285,"N-({4-[(1R)-4-[(2R,4S,5S)-2,4-diamino-6-oxohexahydropyrimidin-5-yl]-1-(2,2,2-trifluoro-1,1-dihydroxyethyl)butyl]phenyl}carbonyl)-L-glutamic acid","[Cần dịch] N-({4-[(1R)-4-[(2R,4S,5S)-2,4-diamino-6-oxohexahydropyrimidin-5-yl]-1-(2,2,2-trifluoro-1,1-dihydroxyethyl)butyl]phenyl}carbonyl)-L-glutamic acid"
+1287,Biotin,Biotin
+1288,Oxyphenbutazone,Oxyphenbutazone
+1289,(S)-Rolipram,(S)-Rolipram
+1294,Phylloquinone,Phylloquinone
+1296,Benzoic acid,Benzoic acid
+1297,Adenosine phosphate,Adenosine phosphate
+1298,Cholecalciferol,Cholecalciferol
+1299,Cholecalciferol,Cholecalciferol
+1300,Adenosine phosphate,Adenosine phosphate
+1301,NADH,NADH
+1302,3-Methylglutamic acid,3-Methylglutamic acid
+1303,NADH,NADH
+1304,Venlafaxine,Venlafaxine
+1305,Desvenlafaxine,Desvenlafaxine
+1306,NADH,NADH
+1307,Clomipramine,Clomipramine
+1308,NADH,NADH
+1309,Mycophenolate mofetil,Mycophenolate mofetil
+1310,Mycophenolic acid,Mycophenolic acid
+1311,Tamoxifen,Tamoxifen
+1312,NADH,NADH
+1313,NADH,NADH
+1314,NADH,NADH
+1315,NADH,NADH
+1316,Artemether,Artemether
+1317,NADH,NADH
+1318,gamma-carboxy-L-glutamic acid,gamma-carboxy-L-glutamic acid
+1319,L-Eflornithine,L-Eflornithine
+1320,Cysteine,Cysteine
+1321,Cysteine,Cysteine
+1322,Ethyl-Carbamic Acid Methyl Ester,Ethyl-Carbamic Acid Methyl Ester
+1327,"N-[4-([(2-Amino-4-oxo-1,4-dihydropyrido[3,2-d]pyrimidin-6-yl)methyl]{(2E)-3-[4-carbamoyl-1-(5-O-phosphono-beta-D-ribofuranosyl)-1H-imidazol-5-yl]-2-propenoyl}amino)benzoyl]-L-glutamic acid","[Cần dịch] N-[4-([(2-Amino-4-oxo-1,4-dihydropyrido[3,2-d]pyrimidin-6-yl)methyl]{(2E)-3-[4-carbamoyl-1-(5-O-phosphono-beta-D-ribofuranosyl)-1H-imidazol-5-yl]-2-propenoyl}amino)benzoyl]-L-glutamic acid"
+1328,Balanol,Balanol
+1329,NADH,NADH
+1330,Cholecalciferol,Cholecalciferol
+1331,Biotin,Biotin
+1332,L-Glutamine,L-Glutamine
+1337,"(10R)-10-formyl-5,8,10-trideazafolic acid","(10R)-10-formyl-5,8,10-trideazafolic acid"
+1338,Phosphatidylethanolamine,Phosphatidylethanolamine
+1339,Carbocisteine,Carbocisteine
+1340,"4-Carboxy-5-(1-Pentyl)Hexylsulfanyl-1,2,3-Triazole","[Cần dịch] 4-Carboxy-5-(1-Pentyl)Hexylsulfanyl-1,2,3-Triazole"
+1342,Thymidine,Thymidine
+1343,Biotin,Biotin
+1346,Icosapent,Icosapent
+1348,Trioxsalen,Trioxsalen
+1349,Thiotepa,Thiotepa
+1350,Estrone sulfate,Estrone sulchất béoe
+1351,Fleroxacin,Fleroxacin
+1353,Coumarin,Coumarin
+1354,1-ACETYL-2-LYSO-SN-GLYCERO-3-PHOSPHOETHANOLAMINE,1-ACETYL-2-LYSO-SN-GLYCERO-3-PHOSPHOETHANOLAMINE
+1355,N-PYRIDOXYL-D-GLUTAMIC ACID-5'-MONOPHOSPHATE,N-PYRIDOXYL-D-GLUTAMIC ACID-5'-MONOPHOSPHATE
+1356,N-PYRIDOXYL-2-METHYL-L-GLUTAMIC ACID-5'-MONOPHOSPHATE,[Cần dịch] N-PYRIDOXYL-2-METHYL-L-GLUTAMIC ACID-5'-MONOPHOSPHATE
+1358,Maraviroc,Maraviroc
+1359,Amineptine,Amineptine
+1360,Clofedanol,Clofedanol
+1361,Cyclandelate,Cyclandelate
+1362,Cyproterone acetate,Cyproterone acetate
+1363,Debrisoquine,Debrisoquine
+1364,Flunarizine,Flunarizine
+1365,Fluspirilene,Fluspirilene
+1366,Tetrabenazine,Tetrabenazine
+1367,Ixabepilone,Ixabepilone
+1368,Celiprolol,Celiprolol
+1369,Roxadustat,Roxadustat
+1370,Febuxostat,Febuxostat
+1371,Dronedarone,Dronedarone
+1372,Nebivolol,Nebivolol
+1373,Nilotinib,Nilotinib
+1374,Lorcaserin,Lorcaserin
+1376,Vildagliptin,Vildagliptin
+1377,Bepotastine,Bepotastine
+1378,Milnacipran,Milnacipran
+1379,Ximelagatran,Ximelagatran
+1380,Flibanserin,Flibanserin
+1381,Desmoteplase,Desmoteplase
+1382,Defibrotide,Defibrotide
+1383,Ospemifene,Ospemifene
+1384,Crofelemer,Crofelemer
+1385,Iloperidone,Iloperidone
+1386,Lofexidine,Lofexidine
+1387,Pirfenidone,Pirfenidone
+1388,Ezogabine,Ezogabine
+1389,Ingenol mebutate,Ingenol mebutate
+1390,Migalastat,Migalastat
+1391,Abaloparatide,Abaloparatide
+1392,Ganaxolone,Ganaxolone
+1393,Ancrod,Ancrod
+1394,Trabectedin,Trabectedin
+1395,Pretomanid,Pretomanid
+1398,Beraprost,Beraprost
+1399,Cobimetinib,Cobimetinib
+1401,Methsuximide,Methsuximide
+1403,Anecortave acetate,Anecortave acetate
+1405,Vandetanib,Vandetanib
+1407,Pimavanserin,Pimavanserin
+1408,Dexlansoprazole,Dexlansoprazole
+1409,Iodine,Iodine
+1412,Palovarotene,Palovarotene
+1413,Technetium Tc-99m ciprofloxacin,Technetium Tc-99m ciprofloxacin
+1415,Telaprevir,Telaprevir
+1416,Mipomersen,Mipomersen
+1417,Brivaracetam,Brivaracetam
+1419,Levoketoconazole,Levoketoconazole
+1420,Apremilast,Apremilast
+1423,Trastuzumab emtansine,Trastuzumab emtansine
+1424,Abiraterone,Abiraterone
+1425,Obeticholic acid,Obeticholic acid
+1426,Cariprazine,Cariprazine
+1427,Lumateperone,Lumateperone
+1428,Cenobamate,Cenobamate
+1429,Spiramycin,Spiramycin
+1430,Nylidrin,Nylidrin
+1431,Pizotifen,Pizotifen
+1432,Pentaerythritol tetranitrate,Pentaerythritol tetranitrate
+1433,Canakinumab,Canakinumab
+1434,Romidepsin,Romidepsin
+1435,Rufinamide,Rufinamide
+1436,Alogliptin,Alogliptin
+1437,Tapentadol,Tapentadol
+1438,Silodosin,Silodosin
+1439,Prasugrel,Prasugrel
+1440,Eltrombopag,Eltrombopag
+1441,Tolvaptan,Tolvaptan
+1442,Regadenoson,Regadenoson
+1443,Asenapine,Asenapine
+1444,Lacosamide,Lacosamide
+1445,Rivaroxaban,Rivaroxaban
+1446,Nalmefene,Nalmefene
+1447,Maribavir,Maribavir
+1448,Avanafil,Avanafil
+1449,Eflornithine,Eflornithine
+1450,Droxidopa,Droxidopa
+1451,Sitaxentan,Sitaxentan
+1452,Sulodexide,Sulodexide
+1453,Alvimopan,Alvimopan
+1454,Levocetirizine,Levocetirizine
+1455,Ziconotide,Ziconotide
+1456,Teriparatide,Teriparatide
+1457,Temsirolimus,Temsirolimus
+1458,Amisulpride,Amisulpride
+1459,Simeprevir,Simeprevir
+1460,Dapagliflozin,Dapagliflozin
+1461,Semuloparin,Semuloparin
+1462,Saxagliptin,Saxagliptin
+1463,Bazedoxifene,Bazedoxifene
+1464,Idraparinux,Idraparinux
+1465,Morphine glucuronide,Morphine glucuronide
+1466,Doxercalciferol,Doxercalciferol
+1467,Armodafinil,Armodafinil
+1468,Etravirine,Etravirine
+1469,Cangrelor,Cangrelor
+1471,Lonafarnib,Lonafarnib
+1472,Prucalopride,Prucalopride
+1473,Pazopanib,Pazopanib
+1474,Midostaurin,Midostaurin
+1475,Panobinostat,Panobinostat
+1476,Apixaban,Apixaban
+1477,Tafenoquine,Tafenoquine
+1478,Bosutinib,Bosutinib
+1479,Axitinib,Axitinib
+1480,Otamixaban,Otamixaban
+1481,Isavuconazonium,Isavuconazonium
+1482,Dalfampridine,Dalfampridine
+1483,Denosumab,Denosumab
+1484,Safinamide,Safinamide
+1485,Liraglutide,Liraglutide
+1486,Amediplase,Amediplase
+1487,Vilazodone,Vilazodone
+1488,Ethanolamine oleate,Ethanolamine oleate
+1489,Mepyramine,Mepyramine
+1490,Mevastatin,Mevastatin
+1491,Dabigatran etexilate,Dabigatran etexilate
+1492,Artemether,Artemether
+1493,Betahistine,Betahistine
+1494,Desvenlafaxine,Desvenlafaxine
+1495,Dexmethylphenidate,Dexmethylphenidate
+1496,Fesoterodine,Fesoterodine
+1497,Gadobutrol,Gadobutrol
+1498,Lumefantrine,Lumefantrine
+1499,Methacholine,Methacholine
+1500,Nilvadipine,Nilvadipine
+1501,Fosaprepitant,Fosaprepitant
+1502,Aluminum hydroxide,Aluminum hydroxide
+1503,Calcium carbonate,canxi carbonate
+1504,Aceclofenac,Aceclofenac
+1505,Danaparoid,Danaparoid
+1506,Betaine,Betaine
+1507,Cabazitaxel,Cabazitaxel
+1508,Carglumic acid,Carglumic acid
+1509,Dalteparin,Dalteparin
+1510,Halcinonide,Halcinonide
+1511,Lanthanum carbonate,Lanthanum carbonate
+1512,Methenamine,Methenamine
+1513,Methylnaltrexone,Methylnaltrexone
+1514,Raltegravir,Raltegravir
+1515,Phenylbutyric acid,Phenylbutyric acid
+1516,Tinzaparin,Tinzaparin
+1517,Tiopronin,Tiopronin
+1518,Triethylenetetramine,Triethylenetetramine
+1521,"4-(1,3-BENZODIOXOL-5-YLOXY)-2-[4-(1H-IMIDAZOL-1-YL)PHENOXY]-6-METHYLPYRIMIDINE","[Cần dịch] 4-(1,3-BENZODIOXOL-5-YLOXY)-2-[4-(1H-IMIDAZOL-1-YL)PHENOXY]-6-METHYLPYRIMIDINE"
+1524,"3-(1,1-dioxido-4H-1,2,4-benzothiadiazin-3-yl)-4-hydroxy-1-(3-methylbutyl)quinolin-2(1H)-one","[Cần dịch] 3-(1,1-dioxido-4H-1,2,4-benzothiadiazin-3-yl)-4-hydroxy-1-(3-methylbutyl)quinolin-2(1H)-one"
+1525,GW-813893,GW-813893
+1528,Ferulic acid,Ferulic acid
+1530,"N-(3-cyanophenyl)-2'-methyl-5'-(5-methyl-1,3,4-oxadiazol-2-yl)-4-biphenylcarboxamide","[Cần dịch] N-(3-cyanophenyl)-2'-methyl-5'-(5-methyl-1,3,4-oxadiazol-2-yl)-4-biphenylcarboxamide"
+1534,[1-(3-CHLORO-2-FORMYL-PHENYLCARBAMOYL)-2-METHYL-PROPYL]-CARBAMIC ACID TERT-BUTYL ESTER,[Cần dịch] [1-(3-CHLORO-2-FORMYL-PHENYLCARBAMOYL)-2-METHYL-PROPYL]-CARBAMIC ACID TERT-BUTYL ESTER
+1536,"[2-(5-Mercapto-[1,3,4]thiadiazol-2-ylcarbamoyl)-1-phenyl-ethyl]-carbamic acid benzyl ester","[Cần dịch] [2-(5-Mercapto-[1,3,4]thiadiazol-2-ylcarbamoyl)-1-phenyl-ethyl]-carbamic acid benzyl ester"
+1537,"(3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-6-(METHOXYMETHYL)-1,2,3,3A,4,9B-HEXAHYDROCYCLOPENTA[C]CHROMEN-8-OL","[Cần dịch] (3AS,4R,9BR)-4-(4-HYDROXYPHENYL)-6-(METHOXYMETHYL)-1,2,3,3A,4,9B-HEXAHYDROCYCLOPENTA[C]CHROMEN-8-OL"
+1538,"N-[(13-CYCLOHEXYL-6,7-DIHYDROINDOLO[1,2-D][1,4]BENZOXAZEPIN-10-YL)CARBONYL]-2-METHYL-L-ALANINE","[Cần dịch] N-[(13-CYCLOHEXYL-6,7-DIHYDROINDOLO[1,2-D][1,4]BENZOXAZEPIN-10-YL)CARBONYL]-2-METHYL-L-ALANINE"
+1539,N-[(6-butoxynaphthalen-2-yl)sulfonyl]-L-glutamic acid,[Cần dịch] N-[(6-butoxynaphthalen-2-yl)sulfonyl]-L-glutamic acid
+1540,N-[(6-butoxynaphthalen-2-yl)sulfonyl]-D-glutamic acid,[Cần dịch] N-[(6-butoxynaphthalen-2-yl)sulfonyl]-D-glutamic acid
+1541,N-{[6-(PENTYLOXY)NAPHTHALEN-2-YL]SULFONYL}-D-GLUTAMIC ACID,[Cần dịch] N-{[6-(PENTYLOXY)NAPHTHALEN-2-YL]SULFONYL}-D-GLUTAMIC ACID
+1542,N-({6-[(4-CYANOBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID,[Cần dịch] N-({6-[(4-CYANOBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID
+1543,N-({6-[(4-CYANO-2-FLUOROBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID,[Cần dịch] N-({6-[(4-CYANO-2-FLUOROBENZYL)OXY]NAPHTHALEN-2-YL}SULFONYL)-D-GLUTAMIC ACID
+1547,(4S)-4-(2-NAPHTHYLMETHYL)-D-GLUTAMIC ACID,(4S)-4-(2-NAPHTHYLMETHYL)-D-GLUTAMIC ACID
+1548,Sulthiame,Sulthiame
+1550,"1-methyl-8-(phenylamino)-4,5-dihydro-1H-pyrazolo[4,3-h]quinazoline-3-carboxylic acid","[Cần dịch] 1-methyl-8-(phenylamino)-4,5-dihydro-1H-pyrazolo[4,3-h]quinazoline-3-carboxylic acid"
+1551,"(5E,14E)-11-oxoprosta-5,9,12,14-tetraen-1-oic acid","[Cần dịch] (5E,14E)-11-oxoprosta-5,9,12,14-tetraen-1-oic acid"
+1552,"N-(3,5-dimethoxyphenyl)imidodicarbonimidic diamide","[Cần dịch] N-(3,5-dimethoxyphenyl)imidodicarbonimidic diamide"
+1553,(R)-warfarin,(R)-warfarin
+1554,"(21S)-1AZA-4,4-DIMETHYL-6,19-DIOXA-2,3,7,20-TETRAOXOBICYCLO[19.4.0] PENTACOSANE","[Cần dịch] (21S)-1AZA-4,4-DIMETHYL-6,19-DIOXA-2,3,7,20-TETRAOXOBICYCLO[19.4.0] PENTACOSANE"
+1555,{1-[2-(1-FORMYL-PROPYL)-3-METHANESULFONYLAMINO-PYRROLIDINE-1-CARBONYL]-2-METHYL-PROPYL}-CARBAMIC ACID TERT-BUTYL ESTER,[Cần dịch] {1-[2-(1-FORMYL-PROPYL)-3-METHANESULFONYLAMINO-PYRROLIDINE-1-CARBONYL]-2-METHYL-PROPYL}-CARBAMIC ACID TERT-BUTYL ESTER
+1556,({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester,[Cần dịch] ({3-[1-(4-Hydroxy-2-oxo-2H-chromen-3-yl)-propyl]-phenylcarbamoyl}-methyl)-carbamic acid tert-butyl ester
+1558,"6-HYDROXY-1,3-BENZOTHIAZOLE-2-SULFONAMIDE","6-HYDROXY-1,3-BENZOTHIAZOLE-2-SULFONAMIDE"
+1559,"1-[(2S)-4-(5-BROMO-1H-PYRAZOLO[3,4-B]PYRIDIN-4-YL)MORPHOLIN-2-YL]METHANAMINE","[Cần dịch] 1-[(2S)-4-(5-BROMO-1H-PYRAZOLO[3,4-B]PYRIDIN-4-YL)MORPHOLIN-2-YL]METHANAMINE"
+1560,Ethyl biscoumacetate,Ethyl biscoumacetate
+1561,Nadroparin,Nadroparin
+1562,Triflusal,Triflusal
+1563,Lurasidone,Lurasidone
+1564,Ticagrelor,Ticagrelor
+1565,Ivacaftor,Ivacaftor
+1566,Azilsartan medoxomil,Azilsartan medoxomil
+1567,Spinosad,Spinosad
+1568,Ioflupane I-123,Ioflupane I-123
+1569,Deferiprone,Deferiprone
+1570,Lomitapide,Lomitapide
+1571,Vismodegib,Vismodegib
+1572,Dehydroascorbic acid,Dehydroascorbic acid
+1573,Spaglumic acid,Spaglumic acid
+1574,Zinc,kẽm
+1575,Uric acid,Uric acid
+1576,Pitavastatin,Pitavastatin
+1577,Rilpivirine,Rilpivirine
+1578,Crizotinib,Crizotinib
+1579,Ulipristal,Ulipristal
+1580,Fingolimod,Fingolimod
+1581,Brentuximab vedotin,Brentuximab vedotin
+1582,Gabapentin enacarbil,Gabapentin enacarbil
+1583,Boceprevir,Boceprevir
+1584,Fidaxomicin,Fidaxomicin
+1585,Cabozantinib,Cabozantinib
+1586,Taliglucerase alfa,Taliglucerase alfa
+1587,Ruxolitinib,Ruxolitinib
+1588,Teriflunomide,Teriflunomide
+1589,Vemurafenib,Vemurafenib
+1590,Linagliptin,Linagliptin
+1591,Perampanel,Perampanel
+1592,Icosapent ethyl,Icosapent ethyl
+1593,Linaclotide,Linaclotide
+1594,Mirabegron,Mirabegron
+1595,Tofacitinib,Tofacitinib
+1596,Regorafenib,Regorafenib
+1597,Enzalutamide,Enzalutamide
+1598,Ponatinib,Ponatinib
+1599,Bedaquiline,Bedaquiline
+1600,Canagliflozin,Canagliflozin
+1601,Dimethyl fumarate,Dimethyl fumarate
+1602,Glycerol phenylbutyrate,Glycerol phenylbutyrate
+1603,Pomalidomide,Pomalidomide
+1604,Trametinib,Trametinib
+1605,Dabrafenib,Dabrafenib
+1606,Radium Ra 223 dichloride,Radium Ra 223 dichloride
+1607,Afatinib,Achất béoinib
+1608,Levomilnacipran,Levomilnacipran
+1609,Dolutegravir,Dolutegravir
+1611,Macitentan,Macitentan
+1612,Sofosbuvir,Sofosbuvir
+1613,Obinutuzumab,Obinutuzumab
+1614,Chlorcyclizine,Chlorcyclizine
+1615,Magaldrate,Magaldrate
+1616,Floctafenine,Floctafenine
+1618,Ditazole,Ditazole
+1619,Diosmin,Diosmin
+1620,Bisacodyl,Bisacodyl
+1621,Aliskiren,Aliskiren
+1622,Ledipasvir,Ledipasvir
+1623,Vorapaxar,Vorapaxar
+1624,Miltefosine,Miltefosine
+1625,Suvorexant,Suvorexant
+1626,Empagliflozin,Empagliflozin
+1627,Eliglustat,Eliglustat
+1628,Tedizolid phosphate,Tedizolid phosphate
+1629,Dulaglutide,Dulaglutide
+1630,Metreleptin,Metreleptin
+1631,Netupitant,Netupitant
+1632,Naloxegol,Naloxegol
+1633,Ibrutinib,Ibrutinib
+1634,Idelalisib,Idelalisib
+1635,Cannabidiol,Cannabidiol
+1636,Ceritinib,Ceritinib
+1637,Cobicistat,Cobicistat
+1638,Vortioxetine,Vortioxetine
+1639,Trimetazidine,Trimetazidine
+1640,Tibolone,Tibolone
+1641,Tasimelteon,Tasimelteon
+1642,Sodium oxybate,natri oxybate
+1643,Palbociclib,Palbociclib
+1644,Olaparib,Olaparib
+1645,Edoxaban,Edoxaban
+1646,Lenvatinib,Lenvatinib
+1647,Nintedanib,Nintedanib
+1648,Idebenone,Idebenone
+1649,Ivabradine,Ivabradine
+1650,Trimebutine,Trimebutine
+1651,Pinaverium,Pinaverium
+1652,Quinagolide,Quinagolide
+1653,Elvitegravir,Elvitegravir
+1654,Daclatasvir,Daclatasvir
+1655,Coenzyme M,Coenzyme M
+1656,Diiodohydroxyquinoline,Diiodohydroxyquinoline
+1657,Stiripentol,Stiripentol
+1658,Eslicarbazepine acetate,Eslicarbazepine acetate
+1659,Dienogest,Dienogest
+1660,Potassium citrate,kali citrate
+1661,Brexpiprazole,Brexpiprazole
+1662,Chromic chloride,Chromic chloride
+1663,Iothalamic acid,Iothalamic acid
+1664,Technetium Tc-99m mebrofenin,Technetium Tc-99m mebrofenin
+1665,Technetium Tc-99m medronate,Technetium Tc-99m medronate
+1666,Sonidegib,Sonidegib
+1667,Uridine triacetate,Uridine triacetate
+1668,Iron sucrose,sắt sucrose
+1669,Sodium citrate,natri citrate
+1670,Technetium Tc-99m disofenin,Technetium Tc-99m disofenin
+1671,Dasabuvir,Dasabuvir
+1672,Viloxazine,Viloxazine
+1673,Loxoprofen,Loxoprofen
+1674,Levamlodipine,Levamlodipine
+1675,Dextran,Dextran
+1676,Tegafur,Tegafur
+1677,Gimeracil,Gimeracil
+1678,Bemiparin,Bemiparin
+1679,Reviparin,Reviparin
+1680,Parnaparin,Parnaparin
+1681,Certoparin,Certoparin
+1682,Patiromer,Patiromer
+1683,Lixisenatide,Lixisenatide
+1684,Strontium ranelate,Strontium ranelate
+1685,Picosulfuric acid,Picosulfuric acid
+1686,Ubidecarenone,Ubidecarenone
+1687,Eluxadoline,Eluxadoline
+1688,Bismuth subcitrate potassium,Bismuth subcitrate kali
+1689,Activated charcoal,Activated charcoal
+1691,Polyethylene glycol,Polyethylene glycol
+1692,Tianeptine,Tianeptine
+1693,Rolapitant,Rolapitant
+1694,Iodide I-131,Iodide I-131
+1695,Ombitasvir,Ombitasvir
+1696,Paritaprevir,Paritaprevir
+1697,Tenofovir alafenamide,Tenofovir alafenamide
+1698,Ioxaglic acid,Ioxaglic acid
+1699,"Synthetic Conjugated Estrogens, A","Synthetic Conjugated Estrogens, A"
+1700,"Synthetic Conjugated Estrogens, B","Synthetic Conjugated Estrogens, B"
+1701,Zinc oxide,kẽm oxide
+1702,Zinc sulfate,kẽm sulchất béoe
+1703,Sodium fluoride,natri fluoride
+1704,Osimertinib,Osimertinib
+1705,Indium In-111 imciromab pentetate,Indium In-111 imciromab pentetate
+1706,Tipiracil,Tipiracil
+1707,Propiolactone,Propiolactone
+1710,Chymotrypsin,Chymotrypsin
+1711,Esterified estrogens,Esterified estrogens
+1712,Meprednisone,Meprednisone
+1713,Norgestrel,Norgestrel
+1714,Technetium Tc-99m sulfur colloid,Technetium Tc-99m sulfur colloid
+1715,Magnesium chloride,magie chloride
+1716,Monopotassium phosphate,Monokali phosphate
+1717,Iodide I-123,Iodide I-123
+1718,Protirelin,Protirelin
+1719,Indium In-111 pentetate,Indium In-111 pentetate
+1720,Indium In-111 oxyquinoline,Indium In-111 oxyquinoline
+1721,Indium In-111 chloride,Indium In-111 chloride
+1722,Fludeoxyglucose (18F),Fludeoxyglucose (18F)
+1723,Urea C-13,Urea C-13
+1724,Simethicone,Simethicone
+1725,Urea C-14,Urea C-14
+1726,Omega-3-acid ethyl esters,Omega-3-acid ethyl esters
+1727,Dexchlorpheniramine maleate,Dexchlorpheniramine maleate
+1728,Choline C-11,Choline C-11
+1729,Insulin degludec,Insulin degludec
+1730,Omega-3-carboxylic acids,Omega-3-carboxylic acids
+1731,Ixazomib,Ixazomib
+1738,Grape,Grape
+1739,Fig,Fig
+1740,Okra,Okra
+1746,Pancrelipase amylase,Pancrelipase amylase
+1747,Pancrelipase protease,Pancrelipase protease
+1748,Hydrogen fluoride,Hydrogen fluoride
+1749,Calcium citrate,canxi citrate
+1750,Vitamin D,vitamin D
+1751,Desirudin,Desirudin
+1752,Plantago seed,Plantago seed
+1753,Potassium bicarbonate,kali bicarbonate
+1754,Magnesium citrate,magie citrate
+1755,Racepinephrine,Racepinephrine
+1756,Calcium gluconate,canxi gluconate
+1757,Opium,Opium
+1758,Chromium,Chromium
+1759,Zinc citrate,kẽm citrate
+1760,Pectin,Pectin
+1761,Rosin,Rosin
+1762,Antithrombin Alfa,Antithrombin Alfa
+1763,Zeaxanthin,Zeaxanthin
+1764,Tetrofosmin,Tetrofosmin
+1765,Pentoxyverine,Pentoxyverine
+1766,1-(c14-c18 esteroyl)-2-docosahexanoyl-sn-glycero-3-phosphoethanolamine,[Cần dịch] 1-(c14-c18 esteroyl)-2-docosahexanoyl-sn-glycero-3-phosphoethanolamine
+1767,Magnesium glycinate,magie glycinate
+1768,Boron,Boron
+1769,Panthenol,Panthenol
+1770,Alcloxa,Alcloxa
+1771,Methylcellulose,Methylcellulose
+1772,Zinc gluconate,kẽm gluconate
+1773,Chromium picolinate,Chromium picolinate
+1774,Levomefolic acid,Levomefolic acid
+1776,Protein C,protein C
+1777,Alectinib,Alectinib
+1778,Sennosides,Sennosides
+1779,Moxidectin,Moxidectin
+1780,Lesinurad,Lesinurad
+1781,Elbasvir,Elbasvir
+1782,Grazoprevir,Grazoprevir
+1783,Venetoclax,Venetoclax
+1784,Asunaprevir,Asunaprevir
+1785,Etafedrine,Etafedrine
+1786,Bilastine,Bilastine
+1787,Antithrombin III human,Antithrombin III human
+1789,Normethadone,Normethadone
+1790,Oxilofrine,Oxilofrine
+1792,Velpatasvir,Velpatasvir
+1793,Rupatadine,Rupatadine
+1794,Opicapone,Opicapone
+1795,Isavuconazole,Isavuconazole
+1796,Delamanid,Delamanid
+1797,Amifampridine,Amifampridine
+1798,Vinflunine,Vinflunine
+1799,Pitolisant,Pitolisant
+1800,Tafamidis,Tafamidis
+1802,Tucatinib,Tucatinib
+1803,Rebamipide,Rebamipide
+1804,Indium,Indium
+1805,Triheptanoin,Triheptanoin
+1806,Selumetinib,Selumetinib
+1807,Naldemedine,Naldemedine
+1808,Voclosporin,Voclosporin
+1809,Pacritinib,Pacritinib
+1810,Tropisetron,Tropisetron
+1811,Acalabrutinib,Acalabrutinib
+1812,Tezacaftor,Tezacaftor
+1813,Encorafenib,Encorafenib
+1814,Ribociclib,Ribociclib
+1815,Lasmiditan,Lasmiditan
+1816,Rilmenidine,Rilmenidine
+1817,Vonoprazan,Vonoprazan
+1818,Ebastine,Ebastine
+1819,Cabotegravir,Cabotegravir
+1820,Rifamycin,Rifamycin
+1821,Tetrahydrocannabivarin,Tetrahydrocannabivarin
+1822,Istradefylline,Istradefylline
+1823,Talazoparib,Talazoparib
+1824,Tenapanor,Tenapanor
+1826,Capmatinib,Capmatinib
+1827,Niraparib,Niraparib
+1828,Fostemsavir,Fostemsavir
+1829,Bictegravir,Bictegravir
+1830,Tivozanib,Tivozanib
+1831,Baricitinib,Baricitinib
+1832,Nifurtimox,Nifurtimox
+1833,Esketamine,Esketamine
+1834,Ertugliflozin,Ertugliflozin
+1835,Neratinib,Neratinib
+1836,Indium In-111 pentetreotide,Indium In-111 pentetreotide
+1837,Osilodrostat,Osilodrostat
+1838,Relugolix,Relugolix
+1839,Brexanolone,Brexanolone
+1840,Romosozumab,Romosozumab
+1841,Infigratinib,Infigratinib
+1842,Apalutamide,Apalutamide
+1843,Valbenazine,Valbenazine
+1844,Indium In-111,Indium In-111
+1845,Deflazacort,Deflazacort
+1846,Vosoritide,Vosoritide
+1847,Bempedoic acid,Bempedoic acid
+1848,Difelikefalin,Difelikefalin
+1849,Selinexor,Selinexor
+1850,Delafloxacin,Delafloxacin
+1851,Lemborexant,Lemborexant
+1852,Duvelisib,Duvelisib
+1853,Dacomitinib,Dacomitinib
+1854,Binimetinib,Binimetinib
+1855,Glasdegib,Glasdegib
+1856,Elagolix,Elagolix
+1857,Letaxaban,Letaxaban
+1858,Entrectinib,Entrectinib
+1859,Benznidazole,Benznidazole
+1860,Avatrombopag,Avatrombopag
+1861,Abemaciclib,Abemaciclib
+1862,Fostamatinib,Fostamatinib
+1863,Alpelisib,Alpelisib
+1864,Ponesimod,Ponesimod
+1865,Tecovirimat,Tecovirimat
+1866,Voxilaprevir,Voxilaprevir
+1867,Sarecycline,Sarecycline
+1869,Letermovir,Letermovir
+1871,Telotristat ethyl,Telotristat ethyl
+1875,Lorlatinib,Lorlatinib
+1876,Gilteritinib,Gilteritinib
+1877,Erdafitinib,Erdafitinib
+1878,Brincidofovir,Brincidofovir
+1879,Deutetrabenazine,Deutetrabenazine
+1881,Estetrol,Estetrol
+1882,Polatuzumab vedotin,Polatuzumab vedotin
+1883,Edaravone,Edaravone
+1884,Triclabendazole,Triclabendazole
+1886,Fexinidazole,Fexinidazole
+1887,Brigatinib,Brigatinib
+1888,Propiverine,Propiverine
+1889,Darexaban,Darexaban
+1890,Doravirine,Doravirine
+1891,Eravacycline,Eravacycline
+1892,Rucaparib,Rucaparib
+1893,Betrixaban,Betrixaban
+1895,Siponimod,Siponimod
+1896,Remimazolam,Remimazolam
+1897,Somavaratan,Somavaratan
+1899,Omadacycline,Omadacycline
+1900,Rimegepant,Rimegepant
+1901,Ibrexafungerp,Ibrexafungerp
+1902,Copanlisib,Copanlisib
+1903,Fedratinib,Fedratinib
+1904,Samidorphan,Samidorphan
+1907,Asciminib,Asciminib
+1908,Nafamostat,Nafamostat
+1909,Ozanimod,Ozanimod
+1912,Sotagliflozin,Sotagliflozin
+1913,Monteplase,Monteplase
+1914,Benserazide,Benserazide
+1916,Lefamulin,Lefamulin
+1917,Gabexate,Gabexate
+1918,Secnidazole,Secnidazole
+1920,Oxatomide,Oxatomide
+1921,Tazemetostat,Tazemetostat
+1922,Darolutamide,Darolutamide
+1923,Lactitol,Lactitol
+1926,Pexidartinib,Pexidartinib
+1927,Silicon,Silicon
+1928,PAC-1,PAC-1
+1929,Oteseconazole,Oteseconazole
+1930,Macimorelin,Macimorelin
+1931,QGC-001,QGC-001
+1933,Lusutrombopag,Lusutrombopag
+1934,Fluindione,Fluindione
+1935,Pancrelipase lipase,Pancrelipase lipase
+1936,Protein S human,protein S human
+1937,Plecanatide,Plecanatide
+1938,Inositol,Inositol
+1940,Pepsin,Pepsin
+1942,Ferrous sulfate anhydrous,Ferrous sulchất béoe anhydrous
+1943,Clorindione,Clorindione
+1946,Diphenadione,Diphenadione
+1947,Sodium feredetate,natri feredetate
+1949,Tioclomarol,Tioclomarol
+1950,Nicomorphine,Nicomorphine
+1952,Almasilate,Almasilate
+1953,Promegestone,Promegestone
+1954,Melagatran,Melagatran
+1955,Saruplase,Saruplase
+1956,Naftazone,Naftazone
+1957,Camostat,Camostat
+1958,Tilactase,Tilactase
+1959,Fluorodopa (18F),Fluorodopa (18F)
+1960,Anethole trithione,Anethole trithione
+1961,Fenofibric acid,Fenofibric acid
+1962,Enasidenib,Enasidenib
+1963,Pibrentasvir,Pibrentasvir
+1964,Glecaprevir,Glecaprevir
+1965,Semaglutide,Semaglutide
+1968,Testosterone undecanoate,Testosterone undecanoate
+1969,Ferric cation,Ferric cation
+1970,Estradiol acetate,Estradiol acetate
+1971,Estradiol cypionate,Estradiol cypionate
+1972,Estradiol valerate,Estradiol valerate
+1973,Baloxavir marboxil,Baloxavir marboxil
+1974,Ox bile extract,Ox bile extract
+1975,Bromotheophylline,Bromotheophylline
+1976,Fosnetupitant,Fosnetupitant
+1977,Galcanezumab,Galcanezumab
+1978,(S)-Warfarin,(S)-Warfarin
+1980,Tocopherylquinone,Tocopherylquinone
+1981,"1,2-icosapentoyl-sn-glycero-3-phosphoserine","1,2-icosapentoyl-sn-glycero-3-phosphoserine"
+1982,Silodrate,Silodrate
+1983,Tenofovir,Tenofovir
+1985,Quinaprilat,Quinaprilat
+1986,Centella asiatica,Centella asiatica
+1987,Elm,Elm
+1989,Coconut oil,Coconut oil
+1991,Hydrogenated coconut oil,Hydrogenated coconut oil
+1992,Vibrio cholerae CVD 103-HgR strain live antigen,Vibrio cholerae CVD 103-HgR strain live antigen
+1993,Magnesium ascorbate,magie ascorbate
+1994,Zinc ascorbate,kẽm ascorbate
+1995,Zinc acetate,kẽm acetate
+1996,Ferrous gluconate,Ferrous gluconate
+1997,Ferrous ascorbate,Ferrous ascorbate
+1998,Ferrous fumarate,Ferrous fumarate
+1999,"Sodium phosphate, dibasic","natri phosphate, dibasic"
+2000,"Sodium phosphate, monobasic, unspecified form","natri phosphate, monobasic, unspecified form"
+2001,"Sodium phosphate, dibasic, unspecified form","natri phosphate, dibasic, unspecified form"
+2002,Lithium citrate,Lithium citrate
+2003,Lithium carbonate,Lithium carbonate
+2004,Magnesium,magie
+2005,Tetraferric tricitrate decahydrate,Tetraferric tricitrate decahydrate
+2006,Chromium nicotinate,Chromium nicotinate
+2008,"Zinc sulfate, unspecified form","kẽm sulchất béoe, unspecified form"
+2009,Ivosidenib,Ivosidenib
+2010,Segesterone acetate,Segesterone acetate
+2012,Meprednisone acetate,Meprednisone acetate
+2013,Prednisolone phosphate,Prednisolone phosphate
+2014,Prednisone acetate,Prednisone acetate
+2015,Calcium polycarbophil,canxi polycarbophil
+2016,Larotrectinib,Larotrectinib
+2017,Dabigatran,Dabigatran
+2019,Mecasermin rinfabate,Mecasermin rinfabate
+2020,Solriamfetol,Solriamfetol
+2021,Diroximel fumarate,Diroximel fumarate
+2022,Ripretinib,Ripretinib
+2023,Vibegron,Vibegron
+2025,Abrocitinib,Abrocitinib
+2026,Voxelotor,Voxelotor
+2027,Umbralisib,Umbralisib
+2028,Avacopan,Avacopan
+2029,Daridorexant,Daridorexant
+2030,Zanubrutinib,Zanubrutinib
+2032,Florilglutamic acid F-18,Florilglutamic acid F-18
+2034,Upadacitinib,Upadacitinib
+2035,Pemigatinib,Pemigatinib
+2036,Tepotinib,Tepotinib
+2038,Futibatinib,Futibatinib
+2039,Tirzepatide,Tirzepatide
+2040,Avapritinib,Avapritinib
+2042,Risdiplam,Risdiplam
+2043,Ubrogepant,Ubrogepant
+2045,Elexacaftor,Elexacaftor
+2046,Vericiguat,Vericiguat
+2047,Belzutifan,Belzutifan
+2048,Benzhydrocodone,Benzhydrocodone
+2049,Oxazolam,Oxazolam
+2050,Valoctocogene roxaparvovec,Valoctocogene roxaparvovec
+2051,Prednisolone acetate,Prednisolone acetate
+2052,Adagrasib,Adagrasib
+2053,Sotorasib,Sotorasib
+2054,Ferric maltol,Ferric maltol
+2055,Triazavirin,Triazavirin
+2056,Molnupiravir,Molnupiravir
+2057,Lenacapavir,Lenacapavir
+2058,Selpercatinib,Selpercatinib
+2059,Cedazuridine,Cedazuridine
+2060,Pralsetinib,Pralsetinib
+2061,L-alpha-Glycerophosphorylethanolamine,L-alpha-Glycerophosphorylethanolamine
+2062,Copper oxodotreotide Cu-64,Copper oxodotreotide Cu-64
+2066,Chloroprednisone,Chloroprednisone
+2067,Berotralstat,Berotralstat
+2068,Atogepant,Atogepant
+2069,Finerenone,Finerenone
+2070,Maralixibat,Maralixibat
+2071,Mitapivat,Mitapivat
+2072,Odevixibat,Odevixibat
+2073,Olutasidenib,Olutasidenib
+2077,Mobocertinib,Mobocertinib
+2079,Serdexmethylphenidate,Serdexmethylphenidate
+2080,Deucravacitinib,Deucravacitinib
+2082,Nirmatrelvir,Nirmatrelvir
+2083,Belumosudil,Belumosudil
+2084,Hippuric acid,Hippuric acid
+2086,S-Apomorphine,S-Apomorphine
+2087,Linzagolix,Linzagolix
+2088,Ivaltinostat,Ivaltinostat
+2089,Apomorphine palmitate,Apomorphine palmitate
+2092,Indium In-111 altumomab pentetate,Indium In-111 altumomab pentetate

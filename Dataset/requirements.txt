@@ -1,0 +1,12 @@
+# Python dependencies for data pipeline
+
+# Core dependencies
+pandas>=1.3.0
+requests>=2.25.0
+
+# Optional: Translation API support
+# Uncomment to enable Google Translate API
+# googletrans==4.0.0rc1
+
+# Note: If googletrans is not installed, simple translation mapping will be used
+

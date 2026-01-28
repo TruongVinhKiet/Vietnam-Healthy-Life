@@ -1,0 +1,332 @@
+graph TB
+    %% =====================================================
+    %% THỰC THỂ BÊN NGOÀI
+    %% =====================================================
+    NguoiDung["Người dùng<br/>Mobile App"]:::entity
+    QuanTri["Quản trị viên<br/>Web Admin"]:::entity
+    GeminiAPI["Google Gemini<br/>Vision API"]:::external
+
+    %% =====================================================
+    %% HỆ THỐNG XÁC THỰC VÀ PHÂN QUYỀN
+    %% =====================================================
+    subgraph AUTH["HỆ THỐNG XÁC THỰC VÀ PHÂN QUYỀN"]
+        DangKy["Đăng ký tài khoản mới"]:::process
+        DangNhap["Đăng nhập hệ thống"]:::process
+        XacThuc["Xác thực và phân quyền"]:::process
+        QuanLyPhien["Quản lý phiên đăng nhập"]:::process
+        
+        DBUser["User<br/>Thông tin người dùng"]:::datastore
+        DBRole["Role Permission<br/>Vai trò và quyền hạn"]:::datastore
+        DBSession["UserSession<br/>Phiên đăng nhập"]:::datastore
+    end
+    
+    %% =====================================================
+    %% HỆ THỐNG XỬ LÝ HÌNH ẢNH VÀ AI
+    %% =====================================================
+    subgraph AI_VISION["HỆ THỐNG XỬ LÝ HÌNH ẢNH VÀ AI"]
+        ChupAnh["Chụp ảnh món ăn"]:::process
+        GuiAPI["Gửi ảnh đến Gemini API"]:::aiprocess
+        NhanDienAI["Nhận diện thành phần món ăn"]:::aiprocess
+        LuuKQAI["Lưu kết quả phân tích vào Staging"]:::aiprocess
+        
+        DBAIAnalyzed["AIAnalyzedMeals<br/>Kết quả phân tích AI"]:::datastore
+        DBAIFeedback["AIFeedback<br/>Phản hồi người dùng"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG KIỂM DUYỆT HUMAN-IN-THE-LOOP
+    %% =====================================================
+    subgraph HITL["HỆ THỐNG KIỂM DUYỆT VÀ CHUẨN HÓA"]
+        XemKQAI["Xem kết quả AI chờ duyệt"]:::process
+        ChinhSuaDuLieu["Chỉnh sửa và bổ sung thông tin"]:::process
+        PheDuyetDuLieu["Phê duyệt dữ liệu"]:::process
+        DongBoDish["Đồng bộ vào kho món ăn chính"]:::process
+        
+        DBDish["Dish<br/>Món ăn Việt Nam"]:::datastore
+        DBDrink["Drink<br/>Đồ uống"]:::datastore
+        DBRecipe["Recipe<br/>Công thức nấu ăn"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG DINH DƯỠNG VÀ TÍNH TOÁN
+    %% =====================================================
+    subgraph NUTRITION["HỆ THỐNG DINH DƯỠNG VÀ TÍNH TOÁN"]
+        NhapBuaAn["Nhập bữa ăn hàng ngày"]:::process
+        TinhDinhDuong["Tính toán dinh dưỡng tổng hợp"]:::process
+        CapNhatNhatKy["Cập nhật nhật ký dinh dưỡng"]:::process
+        TinhToanViChat["Tính toán vi chất còn thiếu"]:::process
+        
+        DBMealEntry["MealEntry<br/>Bữa ăn đã nhập"]:::datastore
+        DBDailySummary["DailySummary<br/>Tổng hợp hàng ngày"]:::datastore
+        DBFoodNutrient["FoodNutrient<br/>Dữ liệu USDA"]:::datastore
+        DBNutrientMapping["NutrientMapping<br/>Ánh xạ dinh dưỡng"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG CHỈ SỐ CƠ THỂ VÀ CÁ NHÂN HÓA
+    %% =====================================================
+    subgraph BODY["HỆ THỐNG CHỈ SỐ CƠ THỂ VÀ CÁ NHÂN HÓA"]
+        NhapChiSo["Nhập chỉ số cơ thể"]:::process
+        TinhBMR["Tính toán BMR cơ bản"]:::process
+        TinhTDEE["Tính toán TDEE theo hoạt động"]:::process
+        TinhNhuCau["Tính nhu cầu dinh dưỡng cá nhân"]:::process
+        
+        DBBodyComposition["UserBodyCompositionHistory<br/>Lịch sử chỉ số cơ thể"]:::datastore
+        DBActivityLevel["ActivityLevel<br/>Mức độ vận động"]:::datastore
+        DBVitaminReq["UserVitaminRequirement<br/>Nhu cầu vitamin"]:::datastore
+        DBMineralReq["UserMineralRequirement<br/>Nhu cầu khoáng chất"]:::datastore
+        DBAminoReq["UserAminoAcidRequirement<br/>Nhu cầu amino acid"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG Y TẾ VÀ THUỐC
+    %% =====================================================
+    subgraph MEDICAL["HỆ THỐNG Y TẾ VÀ THUỐC"]
+        NhapBenhLy["Nhập bệnh lý nền ICD-10"]:::process
+        NhapThuoc["Nhập thuốc đang dùng"]:::process
+        KiemTraTuongTac["Kiểm tra tương tác thuốc thực phẩm"]:::process
+        CanhBaoYTe["Cảnh báo y tế real-time"]:::process
+        
+        DBHealthCondition["HealthCondition<br/>Danh mục bệnh lý ICD-10"]:::datastore
+        DBUserHealth["UserHealthCondition<br/>Bệnh lý của người dùng"]:::datastore
+        DBDrug["Drug<br/>Danh mục thuốc"]:::datastore
+        DBMedicationLog["MedicationLog<br/>Thuốc đang sử dụng"]:::datastore
+        DBDrugInteraction["DrugNutrientContraindication<br/>Chống chỉ định thuốc"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG GỢI Ý THÔNG MINH
+    %% =====================================================
+    subgraph SUGGESTION["HỆ THỐNG GỢI Ý THÔNG MINH"]
+        PhanTichThieuHut["Phân tích thiếu hụt dinh dưỡng"]:::process
+        GoiYMonAn["Gợi ý món ăn phù hợp"]:::process
+        GoiYDoUong["Gợi ý đồ uống bổ sung"]:::process
+        LocTheoSucKhoe["Lọc theo tình trạng sức khỏe"]:::process
+        LuuLichSuGoiY["Lưu lịch sử gợi ý"]:::process
+        
+        DBSuggestionHistory["SuggestionHistory<br/>Lịch sử gợi ý"]:::datastore
+        DBUserPreference["UserDietaryPreference<br/>Sở thích ăn uống"]:::datastore
+        DBAllergen["UserAllergen<br/>Dị ứng thực phẩm"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG THEO DÕI NƯỚC VÀ MỤC TIÊU
+    %% =====================================================
+    subgraph TRACKING["HỆ THỐNG THEO DÕI NƯỚC VÀ MỤC TIÊU"]
+        NhapLuongNuoc["Nhập lượng nước đã uống"]:::process
+        TinhLuongNuocCanThiet["Tính lượng nước cần thiết"]:::process
+        NhacNhoUongNuoc["Nhắc nhở uống nước"]:::process
+        TheoDoiMucTieu["Theo dõi mục tiêu dinh dưỡng"]:::process
+        
+        DBWaterLog["WaterLog<br/>Nhật ký uống nước"]:::datastore
+        DBGoal["Goal<br/>Mục tiêu cá nhân"]:::datastore
+        DBGoalProgress["GoalProgress<br/>Tiến độ mục tiêu"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG MẠNG XÃ HỘI
+    %% =====================================================
+    subgraph SOCIAL["HỆ THỐNG MẠNG XÃ HỘI"]
+        GuiLoiMoi["Gửi lời mời kết bạn"]:::process
+        ChatCaNhan["Chat cá nhân"]:::process
+        ChatNhom["Chat nhóm cộng đồng"]:::process
+        ChiaSeMonAn["Chia sẻ món ăn"]:::process
+        
+        DBFriend["Friend<br/>Danh sách bạn bè"]:::datastore
+        DBPrivateMessage["PrivateMessage<br/>Tin nhắn cá nhân"]:::datastore
+        DBCommunityMessage["CommunityMessage<br/>Tin nhắn nhóm"]:::datastore
+        DBPost["Post<br/>Bài đăng"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG TƯ VẤN VÀ HỖ TRỢ
+    %% =====================================================
+    subgraph SUPPORT["HỆ THỐNG TƯ VẤN VÀ HỖ TRỢ"]
+        ChatBot["Chat với AI Chatbot"]:::aiprocess
+        TuVanAdmin["Tư vấn trực tiếp với Admin"]:::process
+        GuiCauHoi["Gửi câu hỏi tư vấn"]:::process
+        TraLoiTuVan["Trả lời tư vấn chuyên sâu"]:::process
+        
+        DBChatbotMsg["ChatbotMessage<br/>Tin nhắn chatbot"]:::datastore
+        DBAdminMsg["AdminMessage<br/>Tin nhắn admin"]:::datastore
+        DBFAQ["FAQ<br/>Câu hỏi thường gặp"]:::datastore
+    end
+
+    %% =====================================================
+    %% HỆ THỐNG BÁO CÁO VÀ PHÂN TÍCH
+    %% =====================================================
+    subgraph REPORT["HỆ THỐNG BÁO CÁO VÀ PHÂN TÍCH"]
+        XemBaoCaoNgay["Xem báo cáo hàng ngày"]:::process
+        XemBaoCaoTuan["Xem báo cáo tuần"]:::process
+        XemBaoCaoThang["Xem báo cáo tháng"]:::process
+        PhanTichXuHuong["Phân tích xu hướng dinh dưỡng"]:::process
+        XuatBaoCao["Xuất báo cáo PDF"]:::process
+        
+        DBReport["Report<br/>Báo cáo đã lưu"]:::datastore
+    end
+
+    %% =====================================================
+    %% LUỒNG DỮ LIỆU CHÍNH
+    %% =====================================================
+
+    %% Luồng đăng ký và xác thực
+    NguoiDung --|"Đăng ký tài khoản"| DangKy
+    DangKy --> DBUser
+    NguoiDung --|"Đăng nhập"| DangNhap
+    DangNhap --> XacThuc
+    XacThuc <--> DBUser
+    XacThuc <--> DBRole
+    XacThuc --> QuanLyPhien
+    QuanLyPhien --> DBSession
+
+    QuanTri --|"Quản lý vai trò"| DBRole
+
+    %% Luồng xử lý hình ảnh AI
+    NguoiDung --|"Chụp ảnh món ăn"| ChupAnh
+    ChupAnh --> GuiAPI
+    GuiAPI <-->|"Gọi API Vision"| GeminiAPI
+    GuiAPI --> NhanDienAI
+    NhanDienAI --> LuuKQAI
+    LuuKQAI --> DBAIAnalyzed
+
+    NguoiDung --|"Phản hồi kết quả AI"| DBAIFeedback
+
+    %% Luồng kiểm duyệt HITL
+    DBAIAnalyzed --|"Dữ liệu chờ duyệt"| XemKQAI
+    QuanTri --|"Xem và kiểm tra"| XemKQAI
+    XemKQAI --> ChinhSuaDuLieu
+    ChinhSuaDuLieu --> PheDuyetDuLieu
+    PheDuyetDuLieu --> DongBoDish
+    DongBoDish --> DBDish
+    DongBoDish --> DBDrink
+    DongBoDish --> DBRecipe
+
+    %% Luồng nhập và tính toán dinh dưỡng
+    NguoiDung --|"Nhập bữa ăn"| NhapBuaAn
+    DBDish --> NhapBuaAn
+    DBDrink --> NhapBuaAn
+    NhapBuaAn --> DBMealEntry
+
+    DBMealEntry --> TinhDinhDuong
+    DBFoodNutrient --> TinhDinhDuong
+    DBNutrientMapping --> TinhDinhDuong
+    TinhDinhDuong --> CapNhatNhatKy
+    CapNhatNhatKy --> DBDailySummary
+
+    DBDailySummary --> TinhToanViChat
+    DBVitaminReq --> TinhToanViChat
+    DBMineralReq --> TinhToanViChat
+    DBAminoReq --> TinhToanViChat
+
+    %% Luồng chỉ số cơ thể
+    NguoiDung --|"Nhập chỉ số cơ thể"| NhapChiSo
+    NhapChiSo --> DBBodyComposition
+    DBBodyComposition --> TinhBMR
+    TinhBMR --> TinhTDEE
+    DBActivityLevel --> TinhTDEE
+    TinhTDEE --> TinhNhuCau
+    TinhNhuCau --> DBVitaminReq
+    TinhNhuCau --> DBMineralReq
+    TinhNhuCau --> DBAminoReq
+
+    %% Luồng y tế và thuốc
+    NguoiDung --|"Khai báo bệnh lý"| NhapBenhLy
+    NhapBenhLy --> DBUserHealth
+    DBHealthCondition --> NhapBenhLy
+
+    NguoiDung --|"Nhập thuốc đang dùng"| NhapThuoc
+    NhapThuoc --> DBMedicationLog
+    DBDrug --> NhapThuoc
+
+    DBMedicationLog --> KiemTraTuongTac
+    DBDish --> KiemTraTuongTac
+    DBDrugInteraction --> KiemTraTuongTac
+    DBUserHealth --> KiemTraTuongTac
+    KiemTraTuongTac --> CanhBaoYTe
+    CanhBaoYTe --> NguoiDung
+
+    %% Luồng gợi ý thông minh
+    TinhToanViChat --> PhanTichThieuHut
+    PhanTichThieuHut --> GoiYMonAn
+    PhanTichThieuHut --> GoiYDoUong
+
+    DBDish --> GoiYMonAn
+    DBDrink --> GoiYDoUong
+    DBUserPreference --> LocTheoSucKhoe
+    DBAllergen --> LocTheoSucKhoe
+    DBUserHealth --> LocTheoSucKhoe
+
+    GoiYMonAn --> LocTheoSucKhoe
+    GoiYDoUong --> LocTheoSucKhoe
+    LocTheoSucKhoe --> LuuLichSuGoiY
+    LuuLichSuGoiY --> DBSuggestionHistory
+    LocTheoSucKhoe --> NguoiDung
+
+    %% Luồng theo dõi nước
+    NguoiDung --|"Nhập lượng nước"| NhapLuongNuoc
+    NhapLuongNuoc --> DBWaterLog
+    DBBodyComposition --> TinhLuongNuocCanThiet
+    TinhLuongNuocCanThiet --> NhacNhoUongNuoc
+    NhacNhoUongNuoc --> NguoiDung
+
+    %% Luồng mục tiêu
+    NguoiDung --|"Đặt mục tiêu"| DBGoal
+    DBDailySummary --> TheoDoiMucTieu
+    DBGoal --> TheoDoiMucTieu
+    TheoDoiMucTieu --> DBGoalProgress
+    DBGoalProgress --> NguoiDung
+
+    %% Luồng mạng xã hội
+    NguoiDung --|"Kết bạn"| GuiLoiMoi
+    GuiLoiMoi --> DBFriend
+    NguoiDung --|"Chat"| ChatCaNhan
+    ChatCaNhan --> DBPrivateMessage
+    NguoiDung --|"Tham gia nhóm"| ChatNhom
+    ChatNhom --> DBCommunityMessage
+    NguoiDung --|"Đăng bài"| ChiaSeMonAn
+    ChiaSeMonAn --> DBPost
+
+    %% Luồng tư vấn
+    NguoiDung --|"Hỏi chatbot"| ChatBot
+    ChatBot <-->|"RAG hỗ trợ"| GeminiAPI
+    ChatBot --> DBChatbotMsg
+
+    NguoiDung --|"Hỏi admin"| GuiCauHoi
+    GuiCauHoi --> DBAdminMsg
+    QuanTri --|"Trả lời"| TuVanAdmin
+    TuVanAdmin --> DBAdminMsg
+    DBAdminMsg --> NguoiDung
+
+    DBFAQ --> ChatBot
+
+    %% Luồng báo cáo
+    DBDailySummary --> XemBaoCaoNgay
+    DBDailySummary --> XemBaoCaoTuan
+    DBDailySummary --> XemBaoCaoThang
+    XemBaoCaoNgay --> PhanTichXuHuong
+    XemBaoCaoTuan --> PhanTichXuHuong
+    XemBaoCaoThang --> PhanTichXuHuong
+    PhanTichXuHuong --> XuatBaoCao
+    XuatBaoCao --> DBReport
+    DBReport --> NguoiDung
+
+    %% =====================================================
+    %% ĐỊNH NGHĨA STYLE
+    %% =====================================================
+    classDef entity fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#1b5e20
+    classDef process fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#bf360c
+    classDef aiprocess fill:#f3e5f5,stroke:#6a1b9a,stroke-width:3px,color:#4a148c
+    classDef datastore fill:#e3f2fd,stroke:#0d47a1,stroke-width:2px,color:#01579b
+    classDef external fill:#ffebee,stroke:#c62828,stroke-width:3px,color:#b71c1c
+
+    style AUTH fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style AI_VISION fill:#f3e5f5,stroke:#9c27b0,stroke-width:2px
+    style HITL fill:#fff9c4,stroke:#f57f17,stroke-width:2px
+    style NUTRITION fill:#fff3e0,stroke:#ff9800,stroke-width:2px
+    style BODY fill:#e0f2f1,stroke:#00897b,stroke-width:2px
+    style MEDICAL fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style SUGGESTION fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style TRACKING fill:#e8eaf6,stroke:#3949ab,stroke-width:2px
+    style SOCIAL fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    style SUPPORT fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style REPORT fill:#e0f7fa,stroke:#00838f,stroke-width:2px

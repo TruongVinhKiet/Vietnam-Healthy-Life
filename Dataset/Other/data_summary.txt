@@ -1,0 +1,38 @@
+Data summary report
+-------------------
+- drug: 2094 rows
+- healthcondition: 88 rows
+- drughealthcondition: 2694 rows
+- food: 432 rows
+- foodnutrient: 7742 rows
+- nutrient: 60 rows
+- drugnutrientcontraindication: 251 rows
+- unlinked_drugs: 1926 rows
+
+- Linked distinct drugs in drughealthcondition: 197
+- Linked distinct condition_ids in drughealthcondition: 59
+
+Top 10 drugs by number of linked conditions (drug_id: count):
+  - 1939: 25
+  - 1326: 19
+  - 1352: 18
+  - 1919: 18
+  - 12: 18
+  - 1202: 18
+  - 1325: 18
+  - 2031: 17
+  - 777: 17
+  - 1063: 17
+Top 10 condition_ids by linked drug count (condition_id: count):
+  - 73760: 140
+  - 23237: 127
+  - 3852: 108
+  - 62076: 106
+  - 61464: 101
+  - 23236: 97
+  - 62074: 93
+  - 62075: 85
+  - 24771: 81
+  - 61248: 79
+
+- Condition coverage summary: condition_coverage_summary.csv present (59 rows)

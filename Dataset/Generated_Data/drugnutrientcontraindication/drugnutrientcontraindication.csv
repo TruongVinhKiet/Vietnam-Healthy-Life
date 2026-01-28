@@ -1,0 +1,252 @@
+drug_id,nutrient_id,warning_message_vi,warning_message_en,severity
+839,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+853,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+853,41,'Avoid echinacea.','Avoid echinacea.',moderate
+840,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+7,29,'Administer sắt supplement.','Administer iron supplement.',minor
+842,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+855,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+10,29,'Administer sắt supplement.','Administer iron supplement.',minor
+11,11,'Administer canxi supplement.','Administer calcium supplement.',minor
+13,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+841,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+849,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+19,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+20,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+24,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+27,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+854,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+30,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+119,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+215,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+218,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+219,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+224,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+225,55,'Limit foods and supplements high in vitamin C.','Limit foods and supplements high in vitamin C.',minor
+227,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+264,41,'Avoid echinacea.','Avoid echinacea.',moderate
+275,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+277,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+280,41,'Avoid echinacea.','Avoid echinacea.',moderate
+283,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+847,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+300,41,'Avoid echinacea.','Avoid echinacea.',moderate
+301,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1277,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+324,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+358,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+360,11,'Avoid caffeine.','Avoid caffeine.',moderate
+1047,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+389,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+389,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+395,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+397,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+402,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+405,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+415,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+415,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+438,29,'Avoid sắt supplements.','Avoid iron supplements.',moderate
+438,11,'Avoid canxi supplements/canxi rich foods.','Avoid calcium supplements/calcium rich foods.',moderate
+443,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+472,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+843,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1208,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+489,41,'Avoid echinacea.','Avoid echinacea.',moderate
+492,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+499,29,'Do not take aluminum, magie, or sắt containing products up to 2 hours before or after this thuốc.','Do not take aluminum, magnesium, or iron containing products up to 2 hours before or after this medication.',major
+500,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1139,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+513,29,'Avoid sắt supplements.','Avoid iron supplements.',moderate
+514,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+519,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+838,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+544,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+1249,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+550,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+551,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+565,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+573,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+574,41,'Avoid echinacea.','Avoid echinacea.',moderate
+580,11,'Avoid caffeine.','Avoid caffeine.',moderate
+844,58,'Avoid foods rich in vitamin K.','Avoid foods rich in vitamin K.',moderate
+844,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1309,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1309,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+620,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+644,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+669,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+680,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+685,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+692,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+700,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+723,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+732,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1140,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+745,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1050,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+780,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+784,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1067,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1067,58,'Ensure consistent vitamin K intake.','Ensure consistent Vitamin K intake.',minor
+788,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+793,41,'Avoid echinacea.','Avoid echinacea.',moderate
+803,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+804,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1043,11,'Take this thuốc 2 hours before or after the administration of antacids, canxi supplements, or sắt supplements to avoid decreased absorption of hydrochlorothiazide.','Take this medication 2 hours before or after the administration of antacids, calcium supplements, or iron supplements to avoid decreased absorption of hydrochlorothiazide.',moderate
+1043,29,'Take this thuốc 2 hours before or after the administration of antacids, canxi supplements, or sắt supplements to avoid decreased absorption of hydrochlorothiazide.','Take this medication 2 hours before or after the administration of antacids, calcium supplements, or iron supplements to avoid decreased absorption of hydrochlorothiazide.',moderate
+828,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+833,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+833,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+884,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+890,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+903,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1068,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1068,11,'Administer canxi supplement.','Administer calcium supplement.',minor
+927,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+943,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+947,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+949,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+949,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+954,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+970,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+971,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+988,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+990,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+991,41,'Avoid echinacea.','Avoid echinacea.',moderate
+992,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+996,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+999,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1004,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1008,55,'Limit foods and supplements high in vitamin C.','Limit foods and supplements high in vitamin C.',minor
+1026,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1027,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1059,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+1069,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1078,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1091,58,'Ensure consistent vitamin K intake.','Ensure consistent Vitamin K intake.',minor
+1091,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1105,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1111,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1117,29,'Avoid sắt supplements.','Avoid iron supplements.',moderate
+1117,11,'Avoid sắt and canxi containing products as well as antacids.','Avoid iron and calcium containing products as well as antacids.',moderate
+1119,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1120,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1124,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1574,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1149,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1150,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1160,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+1351,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1353,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1353,58,'Ensure consistent vitamin K intake.','Ensure consistent Vitamin K intake.',minor
+1359,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1379,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1381,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1382,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1391,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1393,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1398,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1439,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1442,11,'Avoid caffeine.','Avoid caffeine.',major
+1445,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1452,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1461,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1463,11,'Administer canxi supplement.','Administer calcium supplement.',moderate
+1464,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1469,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1476,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1480,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1483,11,'Administer canxi supplement.','Administer calcium supplement.',minor
+1486,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1491,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1503,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1505,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1509,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1516,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1518,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+1518,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1525,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1528,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1553,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1553,58,'Ensure consistent vitamin K intake.','Ensure consistent Vitamin K intake.',minor
+1560,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1561,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1562,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1564,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1589,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1608,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1613,41,'Avoid echinacea.','Avoid echinacea.',moderate
+1616,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1618,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1620,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1623,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1645,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1657,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1657,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1662,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1675,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1678,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1679,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1680,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1681,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1684,11,'Avoid canxi supplements/canxi rich foods.','Avoid calcium supplements/calcium rich foods.',moderate
+1691,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1701,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1702,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1703,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1714,11,'Avoid sữa / Dairy while using this thuốc','Avoid Milk / Dairy while using this medication',moderate
+1716,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1751,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1753,36,'Avoid kali-containing products.','Avoid potassium-containing products.',moderate
+1755,11,'Avoid caffeine.','Avoid caffeine.',moderate
+1758,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1759,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1762,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1772,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1773,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1776,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1787,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1829,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1829,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1840,11,'Administer canxi supplement.','Administer calcium supplement.',minor
+1856,11,'Administer canxi supplement.','Administer calcium supplement.',minor
+1857,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1889,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1893,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1899,11,'Avoid canxi while using this thuốc','Avoid Calcium while using this medication',moderate
+1899,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1908,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1913,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1917,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1934,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1936,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1942,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1942,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1942,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1943,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1946,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1947,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1947,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1947,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1949,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1954,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1955,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1969,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1973,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1978,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1978,58,'Ensure consistent vitamin K intake.','Ensure consistent Vitamin K intake.',minor
+1980,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate
+1994,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1995,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+1996,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1996,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1996,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+1997,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1998,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+1998,29,'Avoid sắt while using this thuốc','Avoid Iron while using this medication',moderate
+1998,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+2002,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+2003,11,'Limit caffeine intake.','Limit caffeine intake.',minor
+2006,55,'Avoid vitamin C-rich foods while using this thuốc','Avoid Vitamin C-rich foods while using this medication',moderate
+2008,11,'Avoid sữa and dairy products.','Avoid milk and dairy products.',moderate
+2017,36,'Avoid Ginkgo while using this thuốc','Avoid Ginkgo while using this medication',moderate

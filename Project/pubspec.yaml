@@ -1,0 +1,61 @@
+name: my_diary
+description: VietNam Healthy Life - A comprehensive health and nutrition tracking app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  vector_math: ^2.1.4
+  http: ^0.13.6
+  http_parser: ^4.0.2
+  shared_preferences: ^2.1.1
+  cached_network_image: ^3.2.3
+  intl: 0.20.2
+  qr_flutter: ^4.1.0
+  image_picker: ^1.0.7
+  fl_chart: ^0.69.0
+  url_launcher: ^6.2.4
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/fitness_app/
+    - assets/season/
+    - assets/weather/
+    - assets/app.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
+
+# Configuration for flutter_launcher_icons
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/app.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/app.jpg"

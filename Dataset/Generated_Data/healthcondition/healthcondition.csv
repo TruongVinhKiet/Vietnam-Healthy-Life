@@ -1,0 +1,89 @@
+condition_id,condition_code,name_vi,name_en
+42,A048,,Other specified bacterial intestinal infections
+292,A498,,Other bacterial infections of unspecified site
+700,B2685,,Mumps arthritis
+3000,D690,,Allergic purpura
+3561,E1137X2,,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, left eye"
+3562,E1137X3,,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral"
+3563,E1137X9,,"Type 2 diabetes mellitus with diabetic macular edema, resolved following treatment, unspecified eye"
+3717,E232,,Diabetes insipidus
+3852,E642,,Sequelae of vitamin C deficiency
+4804,F32A,,"Depression, unspecified"
+4956,F530,,Postpartum depression
+10699,J3081,,Allergic rhinitis due to animal (cat) (dog) hair and dander
+10700,J3089,,Other allergic rhinitis
+10701,J309,,"Allergic rhinitis, unspecified"
+10702,J310,,Chronic rhinitis
+10788,J45998,,Other asthma
+11467,K5641,,Fecal impaction
+11677,K766,,Portal hypertension
+11791,K9083,,Intestinal failure
+11827,K9402,,Colostomy infection
+12153,L500,,Allergic urticaria
+13508,M0848,,"Pauciarticular juvenile rheumatoid arthritis, vertebrae"
+13509,M084A,,"Pauciarticular juvenile rheumatoid arthritis, other specified site"
+19859,N452,,Orchitis
+19937,N5312,,Painful ejaculation
+20253,N836,,Hematosalpinx
+20271,N857,,Hematometra
+20670,O200,,Threatened abortion
+21197,O326XX4,,"Maternal care for compound presentation, fetus 4"
+22401,O645XX4,,"Obstructed labor due to compound presentation, fetus 4"
+23115,P292,,Neonatal hypertension
+23234,P713,,Neonatal tetany without calcium or magnesium deficiency
+23236,P718,,Other transitory neonatal disorders of calcium and magnesium metabolism
+23237,P719,,"Transitory neonatal disorder of calcium and magnesium metabolism, unspecified"
+24236,R053,,Chronic cough
+24307,R1083,,Colic
+24328,R12,,Heartburn
+24337,R141,,Gas pain
+24342,R152,,Fecal urgency
+24494,R361,,Hematospermia
+24640,R430,,Anosmia
+24751,R6884,,Jaw pain
+24758,R7303,,Prediabetes
+24771,R7681,,Abnormal rheumatoid factor and anti-citrullinated protein antibody without rheumatoid arthritis
+24778,R779,,"Abnormality of plasma protein, unspecified"
+24788,R7881,,Bacteremia
+24794,R7982,,Elevated C-reactive protein (CRP)
+24813,R8271,,Bacteriuria
+59345,T362X4D,,"Poisoning by chloramphenicol group, undetermined, subsequent encounter"
+59346,T362X4S,,"Poisoning by chloramphenicol group, undetermined, sequela"
+61078,T446X4A,,"Poisoning by alpha-adrenoreceptor antagonists, undetermined, initial encounter"
+61079,T446X4D,,"Poisoning by alpha-adrenoreceptor antagonists, undetermined, subsequent encounter"
+61080,T446X4S,,"Poisoning by alpha-adrenoreceptor antagonists, undetermined, sequela"
+61246,T454X6A,,"Underdosing of iron and its compounds, initial encounter"
+61247,T454X6D,,"Underdosing of iron and its compounds, subsequent encounter"
+61248,T454X6S,,"Underdosing of iron and its compounds, sequela"
+61372,T457X6A,,"Underdosing of anticoagulant antagonist, vitamin K and other coagulants, initial encounter"
+61373,T457X6D,,"Underdosing of anticoagulant antagonist, vitamin K and other coagulants, subsequent encounter"
+61374,T457X6S,,"Underdosing of anticoagulant antagonist, vitamin K and other coagulants, sequela"
+61462,T461X6A,,"Underdosing of calcium-channel blockers, initial encounter"
+61463,T461X6D,,"Underdosing of calcium-channel blockers, subsequent encounter"
+61464,T461X6S,,"Underdosing of calcium-channel blockers, sequela"
+61655,T471X4D,,"Poisoning by other antacids and anti-gastric-secretion drugs, undetermined, subsequent encounter"
+61656,T471X4S,,"Poisoning by other antacids and anti-gastric-secretion drugs, undetermined, sequela"
+62074,T494X6A,,"Underdosing of keratolytics, keratoplastics, and other hair treatment drugs and preparations, initial encounter"
+62075,T494X6D,,"Underdosing of keratolytics, keratoplastics, and other hair treatment drugs and preparations, subsequent encounter"
+62076,T494X6S,,"Underdosing of keratolytics, keratoplastics, and other hair treatment drugs and preparations, sequela"
+62248,T504X4A,,"Poisoning by drugs affecting uric acid metabolism, undetermined, initial encounter"
+62249,T504X4D,,"Poisoning by drugs affecting uric acid metabolism, undetermined, subsequent encounter"
+62250,T504X4S,,"Poisoning by drugs affecting uric acid metabolism, undetermined, sequela"
+62436,T50A96S,,"Underdosing of other bacterial vaccines, sequela"
+62926,T565X4A,,"Toxic effect of zinc and its compounds, undetermined, initial encounter"
+62927,T565X4D,,"Toxic effect of zinc and its compounds, undetermined, subsequent encounter"
+62928,T565X4S,,"Toxic effect of zinc and its compounds, undetermined, sequela"
+66202,T8584XA,,"Pain due to internal prosthetic devices, implants and grafts, not elsewhere classified, initial encounter"
+66203,T8584XD,,"Pain due to internal prosthetic devices, implants and grafts, not elsewhere classified, subsequent encounter"
+66204,T8584XS,,"Pain due to internal prosthetic devices, implants and grafts, not elsewhere classified, sequela"
+66247,T8622,,Heart transplant failure
+66253,T8632,,Heart-lung transplant failure
+71256,W301XXA,,"Contact with power take-off devices (PTO), initial encounter"
+71257,W301XXD,,"Contact with power take-off devices (PTO), subsequent encounter"
+71258,W301XXS,,"Contact with power take-off devices (PTO), sequela"
+73550,Y37A2XA,,"High level blast overpressure in military operations, initial encounter"
+73551,Y37A2XD,,"High level blast overpressure in military operations, subsequent encounter"
+73552,Y37A2XS,,"High level blast overpressure in military operations, sequela"
+73654,Y625,,Failure of sterile precautions during heart catheterization
+73760,Y845,,"Insertion of gastric or duodenal sound as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure"
+73819,Y9369,,"Activity, other involving other sports and athletics played as a team or group"
