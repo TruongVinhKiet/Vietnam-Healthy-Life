@@ -1,0 +1,954 @@
+{
+  "@@locale": "en",
+  "appName": "My Diary",
+  "@appName": {
+    "description": "The application name"
+  },
+  "settings": "Settings",
+  "language": "Language",
+  "vietnamese": "Vietnamese",
+  "english": "English",
+  "notifications": "Notifications",
+  "noNotifications": "No notifications yet",
+  "at": "at",
+  "suggestionLoadError": "Failed to load suggestions",
+  "suggestionGenericError": "Error: {error}",
+  "@suggestionGenericError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "suggestionGenerateSuccess": "Suggestions created!",
+  "suggestionGenerateError": "Failed to create suggestions",
+  "suggestionAcceptSuccess": "Suggestion accepted!",
+  "suggestionAcceptError": "Failed to accept suggestion",
+  "suggestionSwapSuccess": "New suggestion swapped!",
+  "suggestionSwapError": "Failed to swap suggestion",
+  "suggestionGenerating": "Generating...",
+  "suggestionCreateNew": "Create new suggestion",
+  "suggestionEmptyTitle": "No suggestions yet",
+  "suggestionEmptyMessage": "Tap \"Create new suggestion\" to generate meals for this day",
+  "suggestionEmptyAction": "Create suggestion",
+  "suggestionCountLabel": "{count} items",
+  "@suggestionCountLabel": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tomorrow": "Tomorrow",
+  "swapSuggestion": "Swap suggestion",
+  "processing": "Processing...",
+  "accept": "Accept",
+  "acceptedNote": "Accepted - please add this to your diary!",
+  "portionSize": "{count} servings",
+  "@portionSize": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "mealLabel": "Dish",
+  "drinkLabel": "Drink",
+  "chooseMealCountsTitle": "Select meal counts",
+  "chooseMealCountsSubtitle": "Choose number of dishes and drinks per meal (Max 2 dishes/meal)",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "mealField": "Dish",
+  "drinkField": "Drink",
+  "takePhoto": "Take photo",
+  "pickFromGallery": "Pick from gallery",
+  "analyzingImage": "Analyzing image...",
+  "retakePhoto": "Retake photo",
+  "recognizeDish": "Dish recognition",
+  "saveDataError": "Failed to save data: {error}",
+  "@saveDataError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "defaultDishName": "Dish",
+  "accuracy": "Accuracy: {percent}%",
+  "@accuracy": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "nutritionComposition": "Nutrition composition",
+  "nutrient": "Nutrient",
+  "amount": "Amount",
+  "reject": "Reject",
+  "saving": "Saving...",
+  "medicationStats": "Medication statistics",
+  "days7": "7 days",
+  "days14": "14 days",
+  "days30": "30 days",
+  "noData": "No data",
+  "totalDose": "Total doses",
+  "taken": "Taken",
+  "onTime": "On time (±1 hour)",
+  "late": "Late",
+  "missed": "Missed",
+  "adherence": "Adherence",
+  "onTimeShort": "On time",
+  "loadNotificationsError": "Failed to load notifications: {error}",
+  "@loadNotificationsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noNotificationsShort": "No notifications",
+  "errorSaveData": "Save failed: {error}",
+  "@errorSaveData": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "healthWarning": "Health warning",
+  "notSuitableForHealth": "{item} is not suitable for your health condition. You should not eat this.",
+  "@notSuitableForHealth": {
+    "placeholders": {
+      "item": {
+        "type": "String"
+      }
+    }
+  },
+  "dishContainsRestrictedFood": "Dish contains restricted food",
+  "usuallyEaten": "Commonly eaten",
+  "nutrientForWeight": "Nutrition for {weight}g",
+  "@nutrientForWeight": {
+    "placeholders": {
+      "weight": {
+        "type": "num"
+      }
+    }
+  },
+  "minerals": "Minerals",
+  "other": "Other",
+  "drugInteractionWarning": "Drug interaction warning",
+  "recentlyTookDrug": "You just took medication and this food may interact:",
+  "drugNameFallback": "Medication",
+  "interactionWithNutrient": "Interacts with {nutrient}",
+  "@interactionWithNutrient": {
+    "placeholders": {
+      "nutrient": {
+        "type": "String"
+      }
+    }
+  },
+  "nutrientName": "Nutrient: {name}",
+  "@nutrientName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "areYouSure": "Are you sure you want to continue?",
+  "continueAnyway": "Continue anyway",
+  "cancelAction": "Cancel",
+  "fieldTooLong": "{field} is too long, truncated to limit",
+  "@fieldTooLong": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
+  "fieldInvalidChars": "{field} contains invalid characters",
+  "@fieldInvalidChars": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
+  "fieldInvalid": "{field} is invalid",
+  "@fieldInvalid": {
+    "placeholders": {
+      "field": {"type": "String"}
+    }
+  },
+  "fieldMaxInteger": "{field} max {max} integer digits",
+  "@fieldMaxInteger": {
+    "placeholders": {
+      "field": {"type": "String"},
+      "max": {"type": "int"}
+    }
+  },
+  "fieldMaxFraction": "{field} max {max} fractional digits",
+  "@fieldMaxFraction": {
+    "placeholders": {
+      "field": {"type": "String"},
+      "max": {"type": "int"}
+    }
+  },
+  "fieldMustBeNumber": "{field} must be a number",
+  "fieldMinValue": "{field} must be >= {min}",
+  "@fieldMinValue": {
+    "placeholders": {
+      "field": {"type": "String"},
+      "min": {"type": "num"}
+    }
+  },
+  "fieldMaxValue": "{field} must be <= {max}",
+  "@fieldMaxValue": {
+    "placeholders": {
+      "field": {"type": "String"},
+      "max": {"type": "num"}
+    }
+  },
+  "editPersonalInfo": "Edit personal info",
+  "basicInfo": "Basic information",
+  "changeAvatar": "Change avatar",
+  "fullName": "Full name",
+  "invalidEmail": "Invalid email",
+  "ageLabel": "Age",
+  "ageMustBeNumber": "Age must be a number",
+  "ageRange": "Age: 5-120",
+  "genderLabel": "Gender",
+  "female": "Female",
+  "otherGender": "Other",
+  "heightLabel": "Height (cm)",
+  "heightLabelShort": "Height",
+  "weightLabel": "Weight (kg)",
+  "weightLabelShort": "Weight",
+  "lifestylePreferences": "Lifestyle & Preferences",
+  "activityLevelLabel": "Activity level",
+  "activitySedentary": "Sedentary",
+  "activityLight": "Lightly active",
+  "activityModerate": "Moderately active",
+  "activityActive": "Active",
+  "activityVeryActive": "Very active",
+  "dietTypeLabel": "Diet type",
+  "dietMediterranean": "Mediterranean",
+  "dietCustom": "Custom",
+  "foodAllergy": "Food allergy",
+  "healthGoal": "Health goal",
+  "loseWeight": "Lose",
+  "maintainWeight": "Maintain",
+  "gainWeight": "Gain",
+  "interface": "Interface",
+  "interfaceMode": "Interface Mode",
+  "automatic": "Automatic",
+  "light": "Light",
+  "dark": "Dark",
+  "seasonalInterface": "Seasonal Interface",
+  "autoChangeByMonth": "Automatically change by month",
+  "seasonMode": "Season Mode",
+  "automaticByMonth": "Automatic (by month)",
+  "manual": "Manual",
+  "off": "Off",
+  "fallingLeaves": "Falling Leaves",
+  "fallingLeavesEffect": "Falling leaves autumn effect",
+  "weather": "Weather",
+  "weatherCity": "Weather City",
+  "windDirection": "Wind Direction",
+  "windNorth": "North (N)",
+  "windNorthEast": "North East (NE)",
+  "windEast": "East (E)",
+  "windSouthEast": "South East (SE)",
+  "windSouth": "South (S)",
+  "windSouthWest": "South West (SW)",
+  "windWest": "West (W)",
+  "windNorthWest": "North West (NW)",
+  "weatherAngle": "Angle: {degree}°",
+  "@weatherAngle": {
+    "placeholders": {
+      "degree": {
+        "type": "int"
+      }
+    }
+  },
+  "background": "Background",
+  "backgroundImage": "Background Image",
+  "enableBackgroundImage": "Enable Background Image",
+  "backgroundImageUrl": "Background Image URL",
+  "applyBackgroundImageSubtitle": "Apply the background image URL you enter",
+  "weatherCityHint": "e.g., Ho Chi Minh City, Ca Mau...",
+  "effectIntensity": "Effect Intensity",
+  "low": "Low",
+  "medium": "Medium",
+  "high": "High",
+  "save": "Save",
+  "cancel": "Cancel",
+  "home": "Home",
+  "health": "Health",
+  "statistics": "Statistics",
+  "account": "Account",
+  "dietaryFiber": "Dietary Fiber",
+  "fat": "Fat",
+  "totalFiber": "Total Fiber",
+  "ofDailyGoal": "of daily goal {goal}",
+  "@ofDailyGoal": {
+    "placeholders": {
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "done": "Done",
+  "goalNotSet": "Goal not set",
+  "calories": "Calories",
+  "protein": "Protein",
+  "carbs": "Carbs",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "thisWeek": "This Week",
+  "thisMonth": "This Month",
+  "addMeal": "Add Meal",
+  "breakfast": "Breakfast",
+  "lunch": "Lunch",
+  "dinner": "Dinner",
+  "snack": "Snack",
+  "search": "Search",
+  "noResults": "No results found",
+  "loading": "Loading...",
+  "error": "Error",
+  "retry": "Retry",
+  "login": "Login",
+  "register": "Register",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "forgotPassword": "Forgot Password?",
+  "name": "Name",
+  "age": "Age",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "weight": "Weight",
+  "height": "Height",
+  "activityLevel": "Activity Level",
+  "goal": "Goal",
+  "loseWeight": "Lose Weight",
+  "maintainWeight": "Maintain Weight",
+  "gainWeight": "Gain Weight",
+  "vitamins": "Vitamins",
+  "minerals": "Minerals",
+  "aminoAcids": "Amino Acids",
+  "fibers": "Fibers",
+  "fats": "Fats",
+  "information": "Information",
+  "code": "Code",
+  "group": "Group",
+  "unit": "Unit",
+  "rda": "RDA",
+  "nutritionOverview": "Nutrition Overview",
+  "personalRecommendation": "Personal Recommendation",
+  "benefits": "Benefits",
+  "description": "Description",
+  "foods": "Foods",
+  "contraindications": "Contraindications",
+  "recommended": "Recommended",
+  "consumed": "Consumed",
+  "remaining": "Remaining",
+  "left": "left",
+  "g": "g",
+  "mg": "mg",
+  "microgram": "μg",
+  "ml": "ml",
+  "l": "L",
+  "kg": "kg",
+  "cm": "cm",
+  "m": "m",
+  "customizeMealDistribution": "Customize meal distribution",
+  "percentagesMustSumTo100": "Percentages must sum to 100",
+  "timeFormatMustBeHHmm": "Time format must be HH:mm (e.g., 07:00)",
+  "percentage": "Percentage",
+  "timeUtc7": "Time (UTC+7)",
+  "record": "Record",
+  "deleteDrink": "Delete Drink",
+  "confirmDeleteDrink": "Are you sure you want to delete this drink from your library?",
+  "delete": "Delete",
+  "cannotDeleteDrink": "Cannot delete drink",
+  "drinkDetail": "Drink Detail",
+  "drinkNotFound": "Drink not found",
+  "noIngredientInfo": "No ingredient information",
+  "quickEntry": "Quick Entry (ml or L)",
+  "example250Or03L": "Example: 250 or 0.3L",
+  "pleaseEnterValidWaterAmount": "Please enter a valid water amount",
+  "recordButton": "Record",
+  "settingsSaved": "Settings saved",
+  "enableWeatherUpdateFirst": "Enable weather update first",
+  "drinkDeleted": "Drink deleted",
+  "addDrink": "Add Drink",
+  "edit": "Edit",
+  "add": "Add",
+  "nameCannotBeEmpty": "Name cannot be empty",
+  "showToAllUsers": "Show to all users",
+  "noSugar": "No Sugar",
+  "selectIngredient": "Select Ingredient",
+  "enterKeywordToSearchFood": "Enter keyword to search for food",
+  "createDrink": "Create Drink",
+  "hydration": "Hydration",
+  "noIngredientsYet": "No ingredients yet",
+  "saveDrink": "Save Drink",
+  "manageDrinks": "Manage Drinks",
+  "confirmDeleteDrinkQuestion": "Are you sure you want to delete this drink?",
+  "deleteFailed": "Delete failed",
+  "manageFoods": "Manage Foods",
+  "addFood": "Add Food",
+  "page": "Page",
+  "noNutritionInfo": "No nutrition information",
+  "confirmDelete": "Confirm Delete",
+  "confirmDeleteFood": "Are you sure you want to delete food \"{foodName}\"?",
+  "@confirmDeleteFood": {
+    "placeholders": {
+      "foodName": {
+        "type": "String"
+      }
+    }
+  },
+  "foodDeletedSuccessfully": "Food deleted successfully",
+  "cannotConnectToServer": "Cannot connect to server",
+  "errorLoadingList": "Error loading list",
+  "noDrinkRecipes": "No drink recipes",
+  "pleaseSelectDrink": "Please select a drink to continue.",
+  "drinksNotFound": "No drinks found",
+  "pleaseAddAtLeastOneIngredient": "Please add at least one ingredient",
+  "recipes": "Recipes",
+  "mealTemplates": "Meal Templates",
+  "cannotLoadStatistics": "Cannot load statistics",
+  "error": "Error",
+  "manageHealthConditions": "Manage Health Conditions",
+  "noDiseasesInSystem": "No diseases in system",
+  "errorLoadingListColon": "Error loading list",
+  "updateAccordingToWeather": "Update according to weather",
+  "changeInterfaceByCity": "Change interface by city",
+  "weatherEffects": "Weather effects",
+  "rainSnowFog": "Rain, snow, fog...",
+  "effectIntensityTitle": "Effect Intensity",
+  "windDirectionTitle": "Wind Direction",
+  "useCustomBackgroundImage": "Use custom background image",
+  "previewBackground": "Preview background",
+  "noImage": "No image",
+  "description": "Description",
+  "addDrink": "Add Drink",
+  "drinkCreated": "Drink created",
+  "failed": "Failed",
+  "ingredient": "Ingredient",
+  "noIngredientsYet": "No ingredients yet",
+  "confirmDelete": "Confirm Delete",
+  "confirmDeleteFood": "Are you sure you want to delete food \"{foodName}\"?",
+  "@confirmDeleteFood": {
+    "placeholders": {
+      "foodName": {
+        "type": "String"
+      }
+    }
+  },
+  "foodDeletedSuccessfully": "Food deleted successfully",
+  "page": "Page",
+  "noNutritionInfo": "No nutrition information",
+  "manageFoods": "Manage Foods",
+  "addFood": "Add Food",
+  "cannotLoadStatistics": "Cannot load statistics",
+  "errorColon": "Error",
+  "manageHealthConditions": "Manage Health Conditions",
+  "noDiseasesInSystem": "No diseases in system",
+  "errorLoadingListColon": "Error loading list",
+  "addDisease": "Add Disease",
+  "confirmDeleteDisease": "Are you sure you want to delete disease \"{diseaseName}\"?",
+  "@confirmDeleteDisease": {
+    "placeholders": {
+      "diseaseName": {
+        "type": "String"
+      }
+    }
+  },
+  "diseaseDeletedSuccessfully": "Disease deleted successfully",
+  "noAdjustments": "No adjustments",
+  "noAvoidList": "No avoid list",
+  "diseaseUpdatedSuccessfully": "Disease updated successfully",
+  "diseaseAddedSuccessfully": "Disease added successfully",
+  "weatherUpdated": "Weather updated",
+  "showToAllUsers": "Show to all users",
+  "noSugar": "No Sugar",
+  "enterKeywordToSearchFood": "Enter keyword to search for food",
+  "medicationMarked": "Medication marked",
+  "editProfile": "Edit Profile",
+  "recipeDeleted": "Recipe deleted",
+  "recipeDeleteError": "Error deleting recipe",
+  "recipeAddedToMeal": "Recipe added to meal",
+  "recipeAddToMealError": "Error adding to meal",
+  "recipeLoadError": "Error loading recipes",
+  "recipeLoadDetailError": "Error loading details",
+  "createFirstRecipe": "Create first recipe",
+  "addToMeal": "Add to Meal",
+  "deleteRecipe": "Delete Recipe",
+  "confirmDeleteRecipe": "Are you sure you want to delete this recipe?",
+  "pleaseLoginToUseChat": "Please login to use chat feature",
+  "errorLoadingMessages": "Error loading messages",
+  "errorSendingMessage": "Error sending message",
+  "errorAnalyzingImage": "Error analyzing image",
+  "errorSendingImage": "Error sending image",
+  "errorProcessing": "Error processing",
+  "bodyMeasurement": "Body Measurement",
+  "mediterraneanDiet": "Mediterranean Diet",
+  "mealsToday": "Meals Today",
+  "vitamins": "Vitamins",
+  "aminoAcids": "Amino Acids",
+  "minerals": "Minerals",
+  "water": "Water",
+  "dietaryFiber": "Dietary Fiber",
+  "fat": "Fat",
+  "details": "Details",
+  "customize": "Customize",
+  "hydrationPercent": "Hydration {percent}%",
+  "@hydrationPercent": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "vitaminC": "Vitamin C",
+  "calcium": "Calcium",
+  "fiber": "Fiber",
+  "omega3": "Omega-3",
+  "cameraNutritionScanner": "Camera Nutrition Scanner",
+  "comingSoon": "Coming Soon",
+  "failedToSave": "Failed to save",
+  "network": "Network",
+  "aquaSmartBottle": "Aqua SmartBottle",
+  "lastDrink": "Last drink",
+  "noRecentDrink": "No recent drink",
+  "weight": "Weight",
+  "height": "Height",
+  "bmi": "BMI",
+  "lbs": "lbs",
+  "eaten": "Eaten",
+  "burned": "Burned",
+  "kcalLeft": "Kcal left",
+  "topMinerals": "Top minerals",
+  "topVitamins": "Top vitamins",
+  "tapDetailsToSeeFullMineralsTable": "Tap Details to see full minerals table and recommended daily amounts.",
+  "tapDetailsToSeeFullVitaminTable": "Tap Details to see full vitamin table and recommended daily amounts.",
+  "tapDetailsToSeeFullAminoAcidTable": "Tap Details to see full amino acid table and recommended amounts.",
+  "cookingRecipes": "Cooking Recipes",
+  "exploreVietnameseDishes": "Explore Vietnamese dishes",
+  "viewAll": "View all",
+  "drinkRecipes": "Drink Recipes",
+  "customizeVolume": "Self-made, customizable volume",
+  "exploreNow": "Explore now",
+  "discover": "Discover",
+  "fullName": "Full Name",
+  "ageLabel": "Age",
+  "heightCm": "Height (cm)",
+  "weightKg": "Weight (kg)",
+  "activityFactor": "Activity Factor (e.g. 1.2)",
+  "activityLevel": "Activity Level: {level}",
+  "@activityLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "dietType": "Diet Type",
+  "allergies": "Allergies (select):",
+  "healthGoal": "Health Goal",
+  "save": "Save",
+  "cancel": "Cancel",
+  "profileUpdateSuccess": "Profile updated successfully",
+  "noResponseFromServer": "No response from server",
+  "recordWaterIntake": "Record Water Intake",
+  "selectDrinkToRecord": "Select a drink to record",
+  "cannotConnectToServer": "Cannot connect to server",
+  "errorLoadingList": "Error loading list: {error}",
+  "@errorLoadingList": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noDrinkRecipesYet": "No drink recipes yet",
+  "pleaseSelectDrinkToContinue": "Please select a drink to continue.",
+  "reset": "Reset",
+  "record": "Record",
+  "logout": "Logout",
+  "personalInformation": "Personal Information",
+  "recommendedNutritionalNeeds": "Recommended Nutritional Needs",
+  "notifications": "Notifications",
+  "security": "Security",
+  "help": "Help",
+  "about": "About",
+  "notLoggedIn": "Not logged in",
+  "user": "User",
+  "invalidData": "Invalid data",
+  "addToMeal": "Add to Meal",
+  "delete": "Delete",
+  "confirmDelete": "Confirm Delete",
+  "confirmDeleteRecipe": "Are you sure you want to delete this recipe?",
+  "createFirstRecipe": "Create first recipe",
+  "deleteRecipe": "Delete Recipe",
+  "dishDetail": "Dish Detail",
+  "dishNotFound": "Dish not found",
+  "createDish": "Create Dish",
+  "pleaseEnterDishName": "Please enter dish name",
+  "pleaseAddAtLeastOneIngredient": "Please add at least one ingredient",
+  "dishCreatedSuccessfully": "Dish created successfully!",
+  "other": "Other",
+  "continueTreatment": "Continue Treatment",
+  "recovered": "Recovered",
+  "confirmContinueTreatment": "Do you want to continue treatment for \"{conditionName}\"?",
+  "@confirmContinueTreatment": {
+    "placeholders": {
+      "conditionName": {
+        "type": "String"
+      }
+    }
+  },
+  "confirm": "Confirm",
+  "treatmentExtended": "Treatment extended",
+  "confirmRecovered": "Have you recovered from \"{conditionName}\"?",
+  "@confirmRecovered": {
+    "placeholders": {
+      "conditionName": {
+        "type": "String"
+      }
+    }
+  },
+  "congratulationsRecovered": "Congratulations on your recovery! 🎉",
+  "errorLoadingMessages": "Error loading messages: {error}",
+  "@errorLoadingMessages": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSendingMessage": "Error sending message",
+  "cannotIdentifyConversation": "Cannot identify this conversation",
+  "noMessagesInConversation": "No messages in this conversation",
+  "errorLoadingNotifications": "Error loading notifications: {error}",
+  "@errorLoadingNotifications": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "allMarkedAsRead": "All marked as read",
+  "noNotifications": "No notifications",
+  "cannotTakePhoto": "Cannot take photo: {error}",
+  "@cannotTakePhoto": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotSelectImage": "Cannot select image: {error}",
+  "@cannotSelectImage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotRecognizeFood": "Cannot recognize food in image. Please try again with a clearer food image.",
+  "errorAnalyzingImage": "Error analyzing image. Please try again.",
+  "errorConnectingToAI": "Error connecting to AI: {error}",
+  "@errorConnectingToAI": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "savedNutritionInfo": "✓ Saved nutrition info for {foodName}",
+  "@savedNutritionInfo": {
+    "placeholders": {
+      "foodName": {
+        "type": "String"
+      }
+    }
+  },
+  "errorSavingData": "Error saving data: {error}",
+  "@errorSavingData": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "retakePhoto": "Retake",
+  "cannotLoadFoodInfo": "Cannot load food information",
+  "pleaseSelectFoodOrDish": "Please select food or dish",
+  "pleaseEnterValidAmount": "Please enter a valid amount",
+  "addedToMealSuccessfully": "Added to meal successfully",
+  "errorLoadingDiseaseList": "Error loading disease list: {error}",
+  "@errorLoadingDiseaseList": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "alreadyHaveDisease": "You already have \"{diseaseName}\", cannot add again",
+  "@alreadyHaveDisease": {
+    "placeholders": {
+      "diseaseName": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseSelectStartDate": "Please select treatment start date",
+  "pleaseSelectAtLeastOneMedicationTime": "Please select at least one medication time",
+  "diseaseAdded": "Added \"{diseaseName}\"",
+  "@diseaseAdded": {
+    "placeholders": {
+      "diseaseName": {
+        "type": "String"
+      }
+    }
+  },
+  "notDetermined": "Not determined",
+  "noMeasurements": "No measurements",
+  "increaseResistance": "Increase resistance",
+  "strongBones": "Strong bones",
+  "goodDigestion": "Good digestion",
+  "cardiovascularHealth": "Cardiovascular health",
+  "noMealData": "No meal data",
+  "searchDish": "Search dish (e.g.: Pho, Rice)...",
+  "searchIngredient": "Search ingredient (e.g.: Beef, Vegetables)...",
+  "quickAdd": "Quick Add",
+  "featureComingSoon": "Feature coming soon!",
+  "dishContainsRestrictedFood": "This dish contains foods you should avoid based on your health condition",
+  "ingredient": "Ingredient",
+  "dish": "Dish",
+  "unreadCount": "{count} unread",
+  "@unreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "notificationDetail": "Notification Detail",
+  "selectHealthCondition": "Select Health Condition",
+  "normal": "Normal",
+  "underweight": "Underweight",
+  "overweight": "Overweight",
+  "obese": "Obese",
+  "severelyUnderweight": "Severely Underweight",
+  "slightlyOverweight": "Slightly Overweight",
+  "perfect": "Perfect",
+  "good": "Good",
+  "needAttention": "Need Attention",
+  "needImprovement": "Need Improvement",
+  "foodRestrictedByHealthCondition": "{foodName} cannot be added due to your health condition",
+  "@foodRestrictedByHealthCondition": {
+    "placeholders": {
+      "foodName": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteDish": "Delete Dish",
+  "confirmDeleteDish": "Are you sure you want to delete \"{dishName}\"?",
+  "@confirmDeleteDish": {
+    "placeholders": {
+      "dishName": {
+        "type": "String"
+      }
+    }
+  },
+  "dishDeleted": "Deleted \"{dishName}\"",
+  "@dishDeleted": {
+    "placeholders": {
+      "dishName": {
+        "type": "String"
+      }
+    }
+  },
+  "cannotDeleteDish": "Cannot delete dish ({errorMsg})",
+  "@cannotDeleteDish": {
+    "placeholders": {
+      "errorMsg": {
+        "type": "String"
+      }
+    }
+  },
+  "weightG": "Weight (g)",
+  "notes": "Notes",
+  "close": "Close",
+  "enterFoodName": "Enter food name...",
+  "enterKeywordToSearch": "Enter keyword to search for food",
+  "nameEnglish": "Name (English)",
+  "nameVietnamese": "Vietnamese Name",
+  "description": "Description",
+  "category": "Category",
+  "baseLiquidNotes": "Base liquid / notes",
+  "defaultVolumeMl": "Default volume (ml)",
+  "ingredients": "Ingredients",
+  "saveDrink": "Save Drink",
+  "noIngredientsYet": "No ingredients yet",
+  "noIngredients": "No ingredients",
+  "searchAndAddIngredientsBelow": "Search and add ingredients below",
+  "health": "Health",
+  "yourHealthCondition": "Your Health Condition",
+  "inTreatment": "In Treatment",
+  "completed": "Completed",
+  "medicationSchedule": "Medication Schedule",
+  "todayDate": "Today, {day}/{month}/{year}",
+  "@todayDate": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      },
+      "year": {
+        "type": "String"
+      }
+    }
+  },
+  "morning": "Morning",
+  "afternoon": "Afternoon",
+  "evening": "Evening",
+  "medication": "Medication",
+  "taken": "Taken",
+  "nextAppointment": "Next Appointment",
+  "today": "Today!",
+  "past": "Past",
+  "daysLeft": "{days} days left",
+  "@daysLeft": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "selectNewEndDate": "Select new end date",
+  "addNewAppointment": "Add New Appointment",
+  "title": "Title",
+  "start": "Start",
+  "end": "End",
+  "passwordMismatch": "Passwords do not match",
+  "registrationFailed": "Registration failed",
+  "required": "Required",
+  "invalidEmail": "Invalid email",
+  "invalidAge": "Invalid age",
+  "selectGender": "Select gender",
+  "invalid": "Invalid",
+  "passwordMinLength": "Password must be at least 6 characters",
+  "noData": "No data",
+  "noResults": "No results",
+  "currentlyHaveThisCondition": "Currently have this condition",
+  "treatmentInfo": "Treatment Info",
+  "treatmentStartDate": "Treatment Start Date *",
+  "treatmentEndDateOptional": "Treatment End Date (Optional)",
+  "selectDate": "Select Date",
+  "selectTime": "Select Time",
+  "confirmAdd": "Confirm Add",
+  "nutritionalNotifications": "Nutritional Notifications",
+  "markAllAsRead": "Mark All as Read",
+  "refresh": "Refresh",
+  "notification": "Notification",
+  "todayProgress": "Today Progress",
+  "current": "Current",
+  "target": "Target",
+  "justNow": "Just now",
+  "minutesAgo": "{minutes} minutes ago",
+  "@minutesAgo": {
+    "placeholders": {
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "hoursAgo": "{hours} hours ago",
+  "@hoursAgo": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      }
+    }
+  },
+  "daysAgo": "{days} days ago",
+  "@daysAgo": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "searchDisease": "Search disease...",
+  "description": "Description:",
+  "causes": "Causes:",
+  "cannotAddDisease": "Cannot add disease",
+  "notLoggedInNoToken": "Not logged in - token not found",
+  "water": "Water",
+  "waterIntakeStatisticsByHour": "Water intake statistics by hour",
+  "noWaterIntakeRecordedForToday": "No water intake recorded for today.",
+  "noDataForToday": "No data for today",
+  "pleaseRecordYourMealsToSeeDetailedStatistics": "Please record your meals to see detailed statistics.",
+  "selectDate": "Select date",
+  "noDetailedRecordsForToday": "No detailed records for today.",
+  "noDataForThisDate": "No data for this date",
+  "mealHistoryForToday": "Meal history for today",
+  "topNutrients": "Top nutrients",
+  "dishesEaten": "Dishes eaten",
+  "moreDishes": "+{count} more dishes",
+  "@moreDishes": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "timeUnknown": "Time unknown",
+  "foodUnknown": "Unknown food",
+  "viewOverview": "View overview",
+  "viewDetailsByDate": "View details by date",
+  "breakfast": "Breakfast",
+  "lunch": "Lunch",
+  "snack": "Snack",
+  "dinner": "Dinner",
+  "january": "January",
+  "february": "February",
+  "march": "March",
+  "april": "April",
+  "may": "May",
+  "june": "June",
+  "july": "July",
+  "august": "August",
+  "september": "September",
+  "october": "October",
+  "november": "November",
+  "december": "December",
+  "sunday": "Sun",
+  "monday": "Mon",
+  "tuesday": "Tue",
+  "wednesday": "Wed",
+  "thursday": "Thu",
+  "friday": "Fri",
+  "saturday": "Sat",
+  "dishesToday": "{count} dishes today",
+  "@dishesToday": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "noMealRecorded": "No meal recorded yet",
+  "breakfastShort": "Breakfast",
+  "lunchShort": "Lunch",
+  "snackShort": "Snack",
+  "dinnerShort": "Dinner"
+}
+

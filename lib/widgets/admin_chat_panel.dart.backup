@@ -1,0 +1,577 @@
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
+import '../services/auth_service.dart';
+import '../config/api_config.dart';
+
+class AdminChatPanel extends StatefulWidget {
+  const AdminChatPanel({super.key});
+
+  @override
+  State<AdminChatPanel> createState() => _AdminChatPanelState();
+}
+
+class _AdminChatPanelState extends State<AdminChatPanel> {
+  List<Map<String, dynamic>> _conversations = [];
+  Map<String, dynamic>? _selectedConversation;
+  int? _selectedConversationId;
+  List<Map<String, dynamic>> _messages = [];
+  final TextEditingController _messageController = TextEditingController();
+  bool _isLoading = false;
+  bool _isLoadingMessages = false;
+  bool _isSending = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadConversations();
+  }
+
+  @override
+  void dispose() {
+    _messageController.dispose();
+    super.dispose();
+  }
+
+  int? _getConversationId(Map<String, dynamic>? conversation) {
+    if (conversation == null) return null;
+    final rawId =
+        conversation['admin_conversation_id'] ??
+        conversation['conversation_id'] ??
+        conversation['conversationId'];
+    if (rawId is int) return rawId;
+    if (rawId is String) return int.tryParse(rawId);
+    if (rawId is double) return rawId.toInt();
+    return null;
+  }
+
+  Future<void> _loadConversations() async {
+    setState(() => _isLoading = true);
+    try {
+      final token = await AuthService.getToken();
+      final response = await http.get(
+        Uri.parse('${ApiConfig.baseUrl}/admin/chat/conversations'),
+        headers: {'Authorization': 'Bearer $token'},
+      );
+
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body);
+        final List<Map<String, dynamic>> rawList =
+            List<Map<String, dynamic>>.from(data['conversations'] ?? []);
+        setState(() {
+          _conversations = rawList.map((conv) {
+            final normalized = Map<String, dynamic>.from(conv);
+            final id = _getConversationId(normalized);
+            if (id != null) {
+              normalized['admin_conversation_id'] = id;
+            }
+            return normalized;
+          }).toList();
+          _isLoading = false;
+        });
+
+        // Preserve selection if possible, but DON'T auto-select first
+        final currentId = _selectedConversationId;
+        Map<String, dynamic>? newSelection;
+        if (currentId != null) {
+          newSelection = _conversations.firstWhere(
+            (c) => _getConversationId(c) == currentId,
+            orElse: () => <String, dynamic>{},
+          );
+          if (newSelection.isEmpty) newSelection = null;
+        }
+        // Removed auto-select first conversation
+        // User must click to see messages
+
+        if (newSelection != null) {
+          final convoId = _getConversationId(newSelection);
+          setState(() {
+            _selectedConversation = newSelection;
+            _selectedConversationId = convoId;
+          });
+          if (convoId != null) {
+            _loadMessages(convoId);
+          }
+        }
+      }
+      setState(() => _isLoading = false);
+    } catch (e) {
+      setState(() => _isLoading = false);
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Lỗi tải conversations: $e')));
+      }
+    }
+  }
+
+  Future<void> _loadMessages(int conversationId) async {
+    setState(() => _isLoadingMessages = true);
+    try {
+      final token = await AuthService.getToken();
+      final id = conversationId;
+      final response = await http.get(
+        Uri.parse('${ApiConfig.baseUrl}/admin/chat/conversations/$id/messages'),
+        headers: {'Authorization': 'Bearer $token'},
+      );
+
+      if (response.statusCode == 200) {
+        final data = json.decode(response.body);
+        setState(() {
+          _messages = List<Map<String, dynamic>>.from(data['messages'] ?? []);
+          _isLoadingMessages = false;
+        });
+      } else {
+        setState(() => _isLoadingMessages = false);
+        if (mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                'Không thể tải tin nhắn (mã ${response.statusCode})',
+              ),
+            ),
+          );
+        }
+      }
+    } catch (e) {
+      setState(() => _isLoadingMessages = false);
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Lỗi tải messages: $e')));
+      }
+    }
+  }
+
+  Future<void> _sendMessage() async {
+    if (_messageController.text.trim().isEmpty ||
+        _selectedConversationId == null)
+      return;
+
+    setState(() => _isSending = true);
+    try {
+      final token = await AuthService.getToken();
+      final conversationId = _selectedConversationId!;
+
+      final response = await http.post(
+        Uri.parse(
+          '${ApiConfig.baseUrl}/admin/chat/conversations/$conversationId/messages',
+        ),
+        headers: {
+          'Authorization': 'Bearer $token',
+          'Content-Type': 'application/json',
+        },
+        body: json.encode({'message': _messageController.text.trim()}),
+      );
+
+      if (response.statusCode == 200) {
+        _messageController.clear();
+        await _loadMessages(conversationId);
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text('Lỗi gửi tin nhắn: $e')));
+      }
+    } finally {
+      setState(() => _isSending = false);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      elevation: 4,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Header
+          Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: [Colors.blue.shade700, Colors.blue.shade500],
+              ),
+              borderRadius: const BorderRadius.vertical(
+                top: Radius.circular(16),
+              ),
+            ),
+            child: Row(
+              children: [
+                const Icon(Icons.chat, color: Colors.white, size: 24),
+                const SizedBox(width: 12),
+                const Text(
+                  'Hỗ trợ người dùng',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const Spacer(),
+                IconButton(
+                  icon: const Icon(Icons.refresh, color: Colors.white),
+                  onPressed: _loadConversations,
+                ),
+              ],
+            ),
+          ),
+
+          // Content
+          Expanded(
+            child: Row(
+              children: [
+                // Conversations List
+                SizedBox(width: 280, child: _buildConversationsList()),
+                const VerticalDivider(width: 1),
+
+                // Messages Area
+                Expanded(
+                  child: _selectedConversation == null
+                      ? _buildEmptyState()
+                      : _buildMessagesArea(),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildConversationsList() {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    if (_conversations.isEmpty) {
+      return const Center(
+        child: Padding(
+          padding: EdgeInsets.all(20),
+          child: Text(
+            'Chưa có cuộc hội thoại nào',
+            style: TextStyle(color: Colors.grey),
+          ),
+        ),
+      );
+    }
+
+    return ListView.separated(
+      itemCount: _conversations.length,
+      separatorBuilder: (_, __) => const Divider(height: 1),
+      itemBuilder: (context, index) {
+        final conv = _conversations[index];
+        final convId = _getConversationId(conv);
+        final isSelected =
+            _selectedConversationId != null &&
+            _selectedConversationId == convId;
+
+        return InkWell(
+          onTap: () {
+            setState(() {
+              _selectedConversation = conv;
+              _selectedConversationId = convId;
+              _messages = [];
+            });
+            if (convId != null) {
+              _loadMessages(convId);
+            } else {
+              ScaffoldMessenger.of(context).showSnackBar(
+                const SnackBar(
+                  content: Text('Không xác định được cuộc hội thoại này'),
+                ),
+              );
+            }
+          },
+          child: Container(
+            color: isSelected ? Colors.blue.shade50 : null,
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            child: Row(
+              children: [
+                CircleAvatar(
+                  backgroundColor: Colors.blue.shade100,
+                  child: Text(
+                    conv['user_email']
+                            ?.toString()
+                            .substring(0, 1)
+                            .toUpperCase() ??
+                        'U',
+                    style: TextStyle(
+                      color: Colors.blue.shade700,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        conv['user_email'] ?? 'User',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w600,
+                          fontSize: 14,
+                        ),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        conv['subject'] ?? 'Hỗ trợ',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(fontSize: 12, color: Colors.grey[600]),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 8),
+                // unread_count may come as string from backend; coerce safely to int
+                (() {
+                  final raw = conv['unread_count'];
+                  int unread = 0;
+                  if (raw is int)
+                    unread = raw;
+                  else if (raw is double)
+                    unread = raw.toInt();
+                  else if (raw != null)
+                    unread = int.tryParse(raw.toString()) ?? 0;
+                  if (unread > 0) {
+                    return Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 8,
+                        vertical: 2,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        unread.toString(),
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 12,
+                        ),
+                      ),
+                    );
+                  }
+                  return const SizedBox.shrink();
+                })(),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildEmptyState() {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            Icons.chat_bubble_outline,
+            size: 64,
+            color: Colors.grey.shade300,
+          ),
+          const SizedBox(height: 16),
+          Text(
+            'Chọn một cuộc hội thoại',
+            style: TextStyle(fontSize: 16, color: Colors.grey.shade600),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildMessagesArea() {
+    return Column(
+      children: [
+        // Conversation Header
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.grey.shade100,
+            border: Border(bottom: BorderSide(color: Colors.grey.shade300)),
+          ),
+          child: Row(
+            children: [
+              CircleAvatar(
+                backgroundColor: Colors.blue.shade100,
+                child: Text(
+                  (_selectedConversation?['user_email'] ?? 'U')
+                      .toString()
+                      .substring(0, 1)
+                      .toUpperCase(),
+                  style: TextStyle(
+                    color: Colors.blue.shade700,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      _selectedConversation?['user_email'] ?? 'User',
+                      style: const TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 16,
+                      ),
+                    ),
+                    Text(
+                      _selectedConversation?['subject'] ?? 'Hỗ trợ',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey.shade600,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+
+        // Messages List
+        Expanded(
+          child: _isLoadingMessages
+              ? const Center(child: CircularProgressIndicator())
+              : _messages.isEmpty
+              ? _buildEmptyMessagesState()
+              : ListView.builder(
+                  padding: const EdgeInsets.all(16),
+                  reverse: true,
+                  itemCount: _messages.length,
+                  itemBuilder: (context, index) {
+                    final message = _messages[_messages.length - 1 - index];
+                    return _buildMessageBubble(message);
+                  },
+                ),
+        ),
+
+        // Input Area
+        Container(
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            border: Border(top: BorderSide(color: Colors.grey.shade300)),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                child: TextField(
+                  controller: _messageController,
+                  enabled: _selectedConversationId != null && !_isSending,
+                  decoration: InputDecoration(
+                    hintText: 'Nhập tin nhắn...',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(24),
+                    ),
+                    contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
+                  ),
+                  onSubmitted: (_) => _sendMessage(),
+                ),
+              ),
+              const SizedBox(width: 12),
+              FloatingActionButton(
+                mini: true,
+                onPressed: _isSending ? null : _sendMessage,
+                child: _isSending
+                    ? const SizedBox(
+                        width: 20,
+                        height: 20,
+                        child: CircularProgressIndicator(
+                          strokeWidth: 2,
+                          color: Colors.white,
+                        ),
+                      )
+                    : const Icon(Icons.send),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildEmptyMessagesState() {
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            Icons.chat_bubble_outline,
+            size: 48,
+            color: Colors.grey.shade400,
+          ),
+          const SizedBox(height: 8),
+          const Text('Chưa có tin nhắn nào trong hội thoại này'),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildMessageBubble(Map<String, dynamic> message) {
+    final isAdmin = message['sender_type'] == 'admin';
+
+    return Align(
+      alignment: isAdmin ? Alignment.centerRight : Alignment.centerLeft,
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 12),
+        constraints: const BoxConstraints(maxWidth: 400),
+        child: Column(
+          crossAxisAlignment: isAdmin
+              ? CrossAxisAlignment.end
+              : CrossAxisAlignment.start,
+          children: [
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+              decoration: BoxDecoration(
+                color: isAdmin ? Colors.blue.shade500 : Colors.grey.shade200,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Text(
+                message['message_text'] ?? '',
+                style: TextStyle(
+                  color: isAdmin ? Colors.white : Colors.black87,
+                  fontSize: 15,
+                ),
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              _formatTime(message['created_at']),
+              style: TextStyle(fontSize: 11, color: Colors.grey.shade500),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  String _formatTime(dynamic timestamp) {
+    if (timestamp == null) return '';
+    try {
+      final dt = DateTime.parse(timestamp.toString());
+      final now = DateTime.now();
+      final diff = now.difference(dt);
+
+      if (diff.inMinutes < 1) return 'Vừa xong';
+      if (diff.inHours < 1) return '${diff.inMinutes} phút trước';
+      if (diff.inDays < 1) return '${diff.inHours} giờ trước';
+      return '${dt.day}/${dt.month} ${dt.hour}:${dt.minute.toString().padLeft(2, '0')}';
+    } catch (e) {
+      return '';
+    }
+  }
+}
