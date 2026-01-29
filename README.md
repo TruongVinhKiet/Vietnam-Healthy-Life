@@ -1,3 +1,5 @@
+> **⚠️ Notice:** This project is intended for portfolio and demonstration purposes only. Redistribution or commercial use is strictly prohibited without my permission.
+
 # my_diary
 
 A new Flutter project.
